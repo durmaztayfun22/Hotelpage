@@ -8,7 +8,6 @@ export default class MyDocument extends Document {
       <Html lang="en">
         <Head>
           <link rel="icon" type="image/svg+xml" href="https://i.imgur.com/77C2A6I.png" />
-          <title>HOLIDAY</title>
         </Head>
         <body>
           <Main />
