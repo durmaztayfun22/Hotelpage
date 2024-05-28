@@ -1,0 +1,65 @@
+.whyholi {
+    width: 100%;
+    height: 1000px;
+}
+
+.whyholi-Container {
+    width: 100%;
+    height: 950px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.whyholi-Container-Div-img {
+    width: 30%;
+    height: 900px;
+}
+
+.whyholi-Container-img {
+    width: 100%;
+    height: 100%;
+}
+
+.whyholi-Container-Content {
+    width: 70%;
+    height: 900px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    background-color: #c6f4fa;
+}
+
+.whyholi-Container-Content-Div-h3 {
+    width: 100%;
+    height: 100px;
+    padding-top: 50px;
+}
+
+.whyholi-Container-Content-h3 {
+    text-align: center;
+    color: black;
+}
+
+.whyholi-Container-Div-ul {
+    width: 100%;
+    height: 830px;
+
+}
+
+.whyholi-Container-ul {
+    width: 90%;
+    height: 100%;
+    list-style: none;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    padding-left: 30px;
+}
+
+.whyholi-Container-ul-li {
+    text-align: left;
+    font-size: 25px;
+    margin-bottom: 20px;
+    margin-left: 15px;
+}

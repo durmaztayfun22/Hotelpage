@@ -1,0 +1,313 @@
+.HoliRoomsHome {
+    margin-top: 0;
+    width: 100%;
+    height: 8100px;
+}
+
+.HoliRoomsHome-Left {
+    width: 50%;
+    height: 1000px;
+    float: left;
+}
+
+.HoliRoomsHome-Left-Content {
+    width: 100%;
+    height: 940px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.HoliRoomsHome-Left-Content-Head {
+    width: 90%;
+    height: 350px;
+    margin-left: 50px;
+}
+
+.HoliRoomsHome-Left-Content-Head-img {
+    width: 100%;
+    height: 350px;
+}
+
+.HoliRoomsHome-Left-Content-Head-img img {
+    width: 450px;
+    height: 300px;
+    border-radius: 5px;
+    position: relative;
+    z-index: -1;
+}
+
+.HoliRoomsHome-Left-Content-Head-img span {
+    position: absolute;
+    left: 16%;
+    background-color: white;
+    border-radius: 15px;
+    margin-top: 13%;
+    padding: 5px;
+    width: 5%;
+    text-align: center;
+    z-index: 2;
+}
+
+.HoliRoomsHome-Left-Content-Body {
+
+    width: 100%;
+    height: 650px;
+}
+
+.HoliRoomsHome-Left-Content-Body-Card {
+    width: 100%;
+    height: 650px;
+}
+
+.HoliRoomsHome-Left-Content-Body-Card-ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.HoliRoomsHome-Left-Content-Body-Card-li {
+    height: 110px;
+    background-color: hsl(186, 50%, 92%);
+    border-radius: 10px;
+    padding: 5px;
+    display: flex;
+    margin-bottom: 15px;
+    width: 40%;
+    justify-content: center;
+    align-items: center;
+}
+
+.HoliRoomsHome-Left-Content-Body-Card-li-Div-img {
+    width: 80px;
+    height: 80px;
+    padding-right: 20px;
+    margin-left: 5px;
+}
+
+.HoliRoomsHome-Left-Content-Body-Card-li-img {
+    width: 70px;
+    height: 70px;
+}
+
+.HoliRoomsHome-Left-Content-Body-Card-li-Div-h1 {
+    width: 110px;
+    height: auto;
+    margin-left: 15px;
+}
+
+.HoliRoomsHome-Left-Content-Body-Card-li-h1 {
+    font-size: 60px;
+    margin: 0;
+}
+
+.HoliRoomsHome-Left-Content-Body-Card-li-Div {
+    width: 100%;
+    text-align: left;
+    margin-left: 15px;
+}
+
+.HoliRoomsHome-Left-Content-Body-Card-li-Div-ul {
+    list-style: none;
+    display: grid;
+    padding-left: 0;
+}
+
+.HoliRoomsHome-Left-Content-Body-Card-li-Div-ul-li-1 {
+    font-size: 20px;
+}
+
+.HoliRoomsHome-Left-Content-Body-Card-li-Div-ul-li-2 {
+    font-size: 10px;
+}
+
+.HoliRoomsHome-Left-Card-Subject-Rate {
+    width: 170px;
+    height: 40px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 25%;
+}
+
+.HoliRoomsHome-Left-Card-Subject-Rate-Div-img {
+    width: 40px;
+    height: 40px;
+}
+
+.HoliRoomsHome-Left-Card-Subject-Rate-img {
+    width: 40px;
+    height: 40px;
+}
+
+.HoliRoomsHome-Left-Card-Subject-Rate-Div-span {
+    margin-left: 10px;
+    width: 70px;
+    height: 40px;
+}
+
+.HoliRoomsHome-Left-Card-Subject-Rate-span {
+    width: 70px;
+    height: 40px;
+}
+
+.HoliRoomsHome-Right {
+    width: 50%;
+    height: 1000px;
+    float: right;
+}
+
+.HoliRoomsHome-Right-Content {
+    width: 100%;
+    height: 940px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.HoliRoomsHome-Right-Content-Head {
+    width: 90%;
+    height: 350px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+}
+
+.HoliRoomsHome-Right-Content-Head-img {
+    width: 100%;
+    height: 350px;
+
+}
+
+.HoliRoomsHome-Right-Content-Head-img img {
+    width: 450px;
+    height: 300px;
+    border-radius: 5px;
+    position: relative;
+    z-index: -1;
+}
+
+.HoliRoomsHome-Right-Content-Head-img span {
+    position: absolute;
+    margin-top: 13%;
+    right: 28%;
+    background-color: white;
+    border-radius: 15px;
+    padding: 5px;
+    width: 5%;
+    text-align: center;
+    z-index: 2;
+}
+
+.HoliRoomsHome-Right-Content-Body-Card {
+    width: 100%;
+    height: 650px;
+    justify-content: center;
+    align-items: center;
+}
+
+.HoliRoomsHome-Right-Content-Body-Card-ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.HoliRoomsHome-Right-Content-Body-Card-li {
+    height: 110px;
+    background-color: hsl(186, 50%, 92%);
+    border-radius: 10px;
+    padding: 5px;
+    display: flex;
+    margin-bottom: 15px;
+    width: 40%;
+    justify-content: center;
+    align-items: center;
+}
+
+.HoliRoomsHome-Right-Content-Body-Card-li-Div-img {
+    width: 80px;
+    height: 80px;
+    padding-right: 20px;
+    margin-left: 5px;
+}
+
+.HoliRoomsHome-Right-Content-Body-Card-li-img {
+    width: 70px;
+    height: 70px;
+}
+
+.HoliRoomsHome-Right-Content-Body-Card-li-Div-h1 {
+    width: 110px;
+    height: auto;
+    margin-left: 15px;
+}
+
+.HoliRoomsHome-Right-Content-Body-Card-li-h1 {
+    font-size: 60px;
+    margin: 0;
+}
+
+.HoliRoomsHome-Right-Content-Body-Card-li-Div {
+    width: 100%;
+    text-align: left;
+    margin-left: 15px;
+}
+
+.HoliRoomsHome-Right-Content-Body-Card-li-Div-ul {
+    list-style: none;
+    display: grid;
+    padding-left: 0;
+    margin-left: 12px;
+}
+
+.HoliRoomsHome-Right-Content-Body-Card-li-Div-ul-li-1 {
+    font-size: 20px;
+}
+
+.HoliRoomsHome-Right-Content-Body-Card-li-Div-ul-li-2 {
+    font-size: 10px
+}
+
+.HoliRoomsHome-Right-Card-Subject-Rate {
+    width: 170px;
+    height: 40px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 25%;
+}
+
+.HoliRoomsHome-Right-Card-Subject-Rate-Div-img {
+    width: 40px;
+    height: 40px;
+}
+
+.HoliRoomsHome-Right-Card-Subject-Rate-img {
+    width: 40px;
+    height: 40px;
+}
+
+.HoliRoomsHome-Right-Card-Subject-Rate-Div-span {
+    margin-left: 10px;
+    width: 70px;
+    height: 40px;
+}
+
+.HoliRoomsHome-Right-Card-Subject-Rate-span {
+    width: 70px;
+    height: 40px;
+}

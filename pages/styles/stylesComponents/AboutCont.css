@@ -1,0 +1,140 @@
+.AboutContainerHome {
+    width: 100%;
+    height: 1500px;
+}
+
+.AboutContainer {
+    width: 100%;
+    height: 1450px;
+}
+
+.AboutCont {
+    width: 100%;
+    height: 1400px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+.AboutCont-Right {
+    width: 100%;
+    height: 450px;
+    background-color: #f0f0f0; /* Arka plan rengi */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.AboutCont-Right-Card {
+    width: 90%;
+    height: 430px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #ffffff;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Gölge efekti */
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.AboutCont-Right-Card-Div {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    text-align: right; /* Metni sağa yaslar */
+}
+
+.AboutCont-Right-Card-Div-h3, .AboutCont-Right-Card-Div-Span {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.AboutCont-Right-Card-h3 {
+    text-align: center; /* H3 etiketini soldan başlatır */
+    margin: 0;
+}
+
+.AboutCont-Right-Card-Div-Span {
+    text-align: left;
+}
+
+.AboutCont-Right-Card-Span {
+    text-align: left; /* Span etiketini soldan başlatır */
+}
+
+.AboutCont-Right-Card-Div-img {
+    width: 45%;
+    display: flex;
+    justify-content: flex-start; /* Resmi sola yaslar */
+    align-items: center;
+}
+
+.AboutCont-Right-Card-img {
+    width: 100%;
+    max-width: 100%; /* Taşmayı önler */
+    height: auto; /* Oranlı şekilde ölçeklenir */
+    object-fit: cover; /* Görüntünün alanı doldurmasını sağlar */
+    border-radius: 8px; /* Resime köşeli yuvarlama */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Gölge efekti */
+}
+
+.AboutCont-Left {
+    width: 100%;
+    height: 450px;
+    background-color: #f0f0f0; /* Arka plan rengi */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.AboutCont-Left-Card {
+    width: 90%;
+    height: 430px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #ffffff;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Gölge efekti */
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.AboutCont-Left-Card-Div {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start; /* Bu kez sola hizalandı */
+    text-align: left; /* Metni sola yaslar */
+}
+
+.AboutCont-Left-Card-Div-h3, .AboutCont-Left-Card-Div-Span {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.AboutCont-Left-Card-Div-h3 {
+    text-align: center; /* H3 etiketini ortalar */
+}
+
+.AboutCont-Left-Card-Div-Span {
+    text-align: left; /* Span etiketini soldan başlatır */
+}
+
+.AboutCont-Left-Card-Div-img {
+    width: 45%;
+    display: flex;
+    justify-content: flex-end; /* Resmi sağa yaslar */
+    align-items: center;
+}
+
+.AboutCont-Left-Card-img {
+    width: 100%;
+    max-width: 100%; /* Taşmayı önler */
+    height: auto; /* Oranlı şekilde ölçeklenir */
+    object-fit: cover; /* Görüntünün alanı doldurmasını sağlar */
+    border-radius: 8px; /* Resime köşeli yuvarlama */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Gölge efekti */
+}

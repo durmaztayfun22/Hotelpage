@@ -1,0 +1,83 @@
+.BaslikAll {
+    margin-top: 0;
+    width: 100%;
+    height: 700px;
+}
+
+.BaslikAll-Head {
+    width: 100%;
+    height: 500px;
+}
+
+.BaslikAll-Head-img {
+    width: 100%;
+    height: 450px;
+    position: absolute;
+    z-index: -1;
+}
+
+.BaslikAll-Head-img img {
+    width: 100%;
+    height: 450px;
+    position: absolute;
+    z-index: -1;
+}
+
+.BaslikAll-Head-overlay {
+    width: auto;
+    height: auto;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    z-index: +1;
+    padding-top: 17%;
+    color: white;
+}
+
+.BaslikAll-Head-overlay h1 {
+    font-size: 37px;
+}
+
+.BaslikAll-Body {
+    margin-top: 0;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.BaslikAll-Body-Left {
+    width: 50%;
+    float: left;
+}
+.BaslikAll-Body-Left h3 {
+    padding-right: 35%;
+    font-size: 25px;
+}
+
+.BaslikAll-Body-Right {
+    width: 50%;
+    float: right;
+    
+}
+
+.BaslikAll-Body-Right-ul {
+    list-style: none;
+    display: flex;
+}
+
+.BaslikAll-Body-Right-li {
+    padding-left: 9%;
+}
+
+.BaslikAll-Body-Right-link {
+    font-size: 20px;
+    color: black; /* Link rengini beyaz yap */
+    text-decoration: none; /* Alt çizgiyi kaldır */
+    display: inline-block; /* Metinleri yan yana yerleştir */
+    white-space: nowrap; /* Metinlerin yeni satıra geçmesini engelle */
+}

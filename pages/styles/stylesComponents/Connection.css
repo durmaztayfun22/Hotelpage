@@ -1,0 +1,129 @@
+.ConnectionHome {
+    width: 100%;
+    height: 1000px;
+}
+
+.ConnectionHome-Container {
+    width: 100%;
+    height: 990px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ConnectionHome-Container-BackgroundImg {
+    width: 90%;
+    height: 950px;
+}
+
+.ConnectionHome-Container-BackgroundImg-img {
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    position: relative;
+}
+
+.ConnectionHome-Container-BackgroundImg-Card {
+    width: 40%;
+    height: 500px;
+    z-index: 2;
+    position: absolute;
+    margin-left: 45%;
+    margin-top: 70px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 25px;
+    background-color: rgba(255, 255, 255, 0.2); /* Arkaplan renginin saydamlığını azaltmak için rgba kullanıyoruz */
+}
+
+.ConnectionHome-Container-BackgroundImg-Card-Content{
+    width: 100%;
+    height: 100%;
+}
+
+.ConnectionHome-Container-BackgroundImg-Card-Content-Div-h1 {
+    width: 100%;
+    height: 65px;
+}
+
+.ConnectionHome-Container-BackgroundImg-Card-Content-h1 {
+    color: white;
+}
+
+.ConnectionHome-Container-BackgroundImg-Card-Content-Div-span {
+    width: 100%;
+    height: 120px;
+}
+
+.ConnectionHome-Container-BackgroundImg-Card-Content-span {
+    color: white;
+}
+
+.ConnectionHome-Container-BackgroundImg-Card-Content-Body {
+    width: 100%;
+    height: 340px;
+}
+
+.ConnectionHome-Container-BackgroundImg-Card-Content-Body-Form {
+    width: 90%;
+    height: 335px;
+}
+
+.ConnectionHome-Container-BackgroundImg-Card-Content-Body-Form-Div-ul {
+    width: 100%;
+    height: 230px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+.ConnectionHome-Container-BackgroundImg-Card-Content-Body-Form-ul {
+    width: 100%;
+    height: 100%;
+    list-style: none;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+.ConnectionHome-Container-BackgroundImg-Card-Content-Body-Form-ul-li {
+    padding: 10px; /* İçeriği kenarlardan ayır */
+    background-color: transparent;
+    align-items: center;
+    margin-bottom: 10px; /* Alt kısmına boşluk bırak */
+    display: flex; /* Öğeleri yatayda hizala */
+    color: white;
+}
+
+.ConnectionHome-Container-BackgroundImg-Card-Content-Body-Form-ul-li-input {
+    background-color: transparent;
+    margin: 2%;
+    width: calc(50% - 10px); /* Yarı genişlik, kenar boşluğunu çıkar */
+    color: #fff;
+    border: none; /* Kenar çizgisini kaldır */
+    border-bottom: 1px solid #fff; /* Alt kısmına sadece çizgi ekle */
+    padding: 5px; /* İçeriği kenarlardan ayır */
+    outline: none; /* Odaklanıldığında kenarlığı kaldır */
+}
+
+.ConnectionHome-Container-BackgroundImg-Card-Content-Body-Form-ul-li-input::placeholder {
+    color: white;
+}
+
+.ConnectionHome-Container-BackgroundImg-Card-Content-Body-Form-Div-ul-Button {
+    margin-left: 42%;
+    width: 200px;
+    height: 50px;
+    padding: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    border-radius: 50px;
+    background-color: transparent;
+    color: white;
+}
+
+.ConnectionHome-Container-BackgroundImg-Card-Content-Body-Form-Div-ul-Button:hover {
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+    font-size: 15px;
+}

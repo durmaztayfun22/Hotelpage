@@ -1,0 +1,139 @@
+.HotelSelectionHome {
+    width: 100%;
+    height: 800px;
+    margin-bottom: 250px;
+}
+
+.HotelSelectionHome-Container {
+    width: 100%;
+    height: 790px;
+}
+
+.HotelSelectionHome-Container-Div-h1 {
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.HotelSelectionHome-Container-h1 {
+    text-align: center;
+}
+
+.HotelSelectionHome-Container-Body {
+    width: 100%;
+    height: 695px;
+}
+
+.HotelSelectionHome-Container-Body-Cards {
+    width: 100%;
+    height: 690px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    opacity: 0; /* Başlangıçta görünmez */
+    transition: opacity 1s ease; /* Animasyon süresi ve yumuşak geçiş belirlendi */
+}
+
+.HotelSelectionHome-Container-Body-Cards.visible {
+    opacity: 1; /* Visible when in view */
+}
+
+.HotelSelectionHome-Container-Body-Cards-1 {
+    width: 100%;
+    height: 340px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.HotelSelectionHome-Container-Body-Cards-1-Subject {
+    width: 50%;
+    height: 100%;
+    position: relative; 
+}
+
+.HotelSelectionHome-Container-Body-Cards-1-Subject-Div-img {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 25%;
+}
+
+.HotelSelectionHome-Container-Body-Cards-1-Subject-img {
+    width: 100%; 
+    height: 100%;
+    object-fit: cover;
+}
+
+.HotelSelectionHome-Container-Body-Cards-1-Subject-Div-span {
+    width: auto;
+    height: auto;
+    z-index: 2;
+    position: absolute;
+    bottom: 10px; 
+    left: 10px; 
+    background: rgba(0, 0, 0, 0.5); 
+    color: white; 
+    padding: 5px; 
+    border-radius: 5px;
+    margin-left: 25%;
+}
+
+.HotelSelectionHome-Container-Body-Cards-1-Subject-span {
+    width: 100%;
+    text-align: center;
+}
+
+
+.HotelSelectionHome-Container-Body-Cards-2 {
+    width: 100%;
+    height: 380px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.HotelSelectionHome-Container-Body-Cards-2-Subject {
+    width: 50%;
+    height: 100%;
+    position: relative; 
+}
+
+.HotelSelectionHome-Container-Body-Cards-2-Subject-Div-img {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 25%;
+}
+
+.HotelSelectionHome-Container-Body-Cards-2-Subject-img {
+    width: 100%; 
+    height: 100%;
+    object-fit: cover;
+}
+
+.HotelSelectionHome-Container-Body-Cards-2-Subject-Div-span {
+    width: auto;
+    height: auto;
+    z-index: 2;
+    position: absolute;
+    bottom: 10px; 
+    left: 10px; 
+    background: rgba(0, 0, 0, 0.5); 
+    color: white; 
+    padding: 5px; 
+    border-radius: 5px;
+    margin-left: 25%;
+}
+
+.HotelSelectionHome-Container-Body-Cards-2-Subject-span {
+    width: 100%;
+    text-align: center;
+}
