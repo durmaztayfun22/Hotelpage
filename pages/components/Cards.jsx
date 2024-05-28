@@ -1,9 +1,8 @@
-import React, { useEffect, useState } from "react";
+import Image from 'next/image';
+import React, { useEffect, useState } from 'react';
+import axios from 'axios';
+import { CardApi } from '../singleTypes/SingleTypesApi';
 import '../styles/stylesComponents/Cards.css';
-import axios from "axios";
-import { CardApi } from "../singleTypes/SingleTypesApi";
-
-
 
 export default function Cards() {
     const [data, setData] = useState(null);
@@ -12,14 +11,14 @@ export default function Cards() {
     const fetchData = async () => {
         try {
             const res = await axios.get(`${CardApi}`);
-            console.log("API Response:", res.data);
+            console.log('API Response:', res.data);
             setData(res.data.data);
             setLoading(false);
         } catch (error) {
-            console.error("Error fetching data:", error);
+            console.error('Error fetching data:', error);
             setLoading(false);
         }
-    }
+    };
 
     useEffect(() => {
         fetchData();
@@ -35,7 +34,7 @@ export default function Cards() {
 
     const { attributes } = data;
 
-    return(
+    return (
         <>
             <div key={data.id} className="Cards">
                 <div className="Cards-Container">
@@ -46,21 +45,33 @@ export default function Cards() {
                         <ul className="Cards-Container-ul">
                             <li className="Cards-Container-ul-li">
                                 <div className="Cards-Container-ul-li-Div-img">
-                                    <img src={attributes.img1} className="Cards-Container-ul-li-img" alt="plane" />
+                                    <Image
+                                        src={attributes.img1}
+                                        alt="plane"
+                                        width={100}
+                                        height={100}
+                                        className="Cards-Container-ul-li-img"
+                                    />
                                 </div>
                                 <div className="Cards-Container-ul-li-Div-h3">
-                                    <h3  className="Cards-Container-ul-li-h3" >{attributes.h3Body1}</h3>
+                                    <h3 className="Cards-Container-ul-li-h3">{attributes.h3Body1}</h3>
                                 </div>
                                 <div className="Cards-Container-ul-li-Div-span">
-                                    <span  className="Cards-Container-ul-li-span">{attributes.span1Body1}</span>
+                                    <span className="Cards-Container-ul-li-span">{attributes.span1Body1}</span>
                                 </div>
                             </li>
                             <li className="Cards-Container-ul-li">
                                 <div className="Cards-Container-ul-li-Div-img">
-                                    <img src={attributes.img2}  className="Cards-Container-ul-li-img"  alt="sun-lounger" />
+                                    <Image
+                                        src={attributes.img2}
+                                        alt="sun-lounger"
+                                        width={100}
+                                        height={100}
+                                        className="Cards-Container-ul-li-img"
+                                    />
                                 </div>
                                 <div className="Cards-Container-ul-li-Div-h3">
-                                    <h3  className="Cards-Container-ul-li-h3">{attributes.h3Head2}</h3>
+                                    <h3 className="Cards-Container-ul-li-h3">{attributes.h3Head2}</h3>
                                 </div>
                                 <div className="Cards-Container-ul-li-Div-span">
                                     <span className="Cards-Container-ul-li-span">{attributes.span2Body2}</span>
@@ -68,10 +79,16 @@ export default function Cards() {
                             </li>
                             <li className="Cards-Container-ul-li">
                                 <div className="Cards-Container-ul-li-Div-img">
-                                    <img src={attributes.img3}  className="Cards-Container-ul-li-img"  alt="cocktail" />
+                                    <Image
+                                        src={attributes.img3}
+                                        alt="cocktail"
+                                        width={100}
+                                        height={100}
+                                        className="Cards-Container-ul-li-img"
+                                    />
                                 </div>
                                 <div className="Cards-Container-ul-li-Div-h3">
-                                    <h3  className="Cards-Container-ul-li-h3">{attributes.h3Body3}</h3>
+                                    <h3 className="Cards-Container-ul-li-h3">{attributes.h3Body3}</h3>
                                 </div>
                                 <div className="Cards-Container-ul-li-Div-span">
                                     <span className="Cards-Container-ul-li-span">{attributes.span3Body3}</span>
@@ -82,5 +99,5 @@ export default function Cards() {
                 </div>
             </div>
         </>
-    )
+    );
 }

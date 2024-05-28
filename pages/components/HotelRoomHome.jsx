@@ -3,6 +3,7 @@ import axios from "axios";
 // import { api } from './api';
 import { api } from '../api.js';
 import '../styles/stylesComponents/HotelRoomHome.css';
+import Image from 'next/image';
 
 export default function HotelRoomHome() {
 
@@ -40,7 +41,7 @@ export default function HotelRoomHome() {
                                         </div>
                                         <div className="HotelRoomsHome-Left-Content-Head">
                                             <div className="HotelRoomsHome-Left-Content-Head-img">
-                                                <img src={`${item?.attributes?.Images}`} className="LeftFoto" alt="room1" />
+                                                <Image src={`${item?.attributes?.Images}`} className="LeftFoto" alt="room1"></Image>
                                                 <span>Review</span>
                                             </div>
                                         </div>
@@ -52,7 +53,7 @@ export default function HotelRoomHome() {
                                                 <ul className="HotelRoomsHome-Left-Content-Body-Card-ul">
                                                     <li className="HotelRoomsHome-Left-Content-Body-Card-li">
                                                         <div className="HotelRoomsHome-Left-Content-Body-Card-li-Div-img">
-                                                            <img src="https://i.imgur.com/G4B8HdS.png" className="HotelRoomsHome-Left-Content-Body-Card-li-img" alt="square" />
+                                                            <Image src="https://i.imgur.com/G4B8HdS.png" className="HotelRoomsHome-Left-Content-Body-Card-li-img" alt="square"></Image>
                                                         </div>
                                                         <div className="HotelRoomsHome-Left-Content-Body-Card-li-Div-h1">
                                                             <h1 className="HotelRoomsHome-Left-Content-Body-Card-li-h1">{item?.attributes?.NumberSquareMetre}</h1>
@@ -66,7 +67,7 @@ export default function HotelRoomHome() {
                                                     </li>
                                                     <li className="HotelRoomsHome-Left-Content-Body-Card-li">
                                                         <div className="HotelRoomsHome-Left-Content-Body-Card-li-img">
-                                                            <img src="https://i.imgur.com/BwDsjBe.png" className="HotelRoomsHome-Left-Content-Body-Card-li-img" alt="bedroom" />
+                                                            <Image src="https://i.imgur.com/BwDsjBe.png" className="HotelRoomsHome-Left-Content-Body-Card-li-img" alt="bedroom"></Image>
                                                         </div>
                                                         <div className="HotelRoomsHome-Left-Content-Body-Card-li-Div-h1">
                                                             <h1 className="HotelRoomsHome-Left-Content-Body-Card-li-h1">{item?.attributes?.NumberBedroom}</h1>
@@ -80,7 +81,7 @@ export default function HotelRoomHome() {
                                                     </li>
                                                     <li className="HotelRoomsHome-Left-Content-Body-Card-li">
                                                         <div className="HotelRoomsHome-Left-Content-Body-Card-li-img">
-                                                            <img src="https://i.imgur.com/5G936Gs.png" className="HotelRoomsHome-Left-Content-Body-Card-li-img" alt="bathtub" />
+                                                            <Image src="https://i.imgur.com/5G936Gs.png" className="HotelRoomsHome-Left-Content-Body-Card-li-img" alt="bathtub"></Image>
                                                         </div>
                                                         <div className="HotelRoomsHome-Left-Content-Body-Card-li-Div-h1">
                                                             <h1 className="HotelRoomsHome-Left-Content-Body-Card-li-h1">{item?.attributes?.NumberBathroom}</h1>
@@ -94,7 +95,7 @@ export default function HotelRoomHome() {
                                                     </li>
                                                     <li className="HotelRoomsHome-Left-Content-Body-Card-li">
                                                         <div className="HotelRoomsHome-Left-Content-Body-Card-li-img">
-                                                            <img src="https://i.imgur.com/mLOfXqg.png" className="HotelRoomsHome-Left-Content-Body-Card-li-img" alt="rating" />
+                                                            <Image src="https://i.imgur.com/mLOfXqg.png" className="HotelRoomsHome-Left-Content-Body-Card-li-img" alt="rating"></Image>
                                                         </div>
                                                         <div className="HotelRoomsHome-Left-Content-Body-Card-li-Div-h1">
                                                             <h1 className="HotelRoomsHome-Left-Content-Body-Card-li-h1">{item?.attributes?.NumberRaiting1}/{item?.attributes.NumberRaiting2}</h1>
@@ -112,7 +113,7 @@ export default function HotelRoomHome() {
                                     </div>
                                     <div className="HotelRoom-Left-Card-Subject-Rate">
                                         <div className="HotelRoom-Left-Card-Subject-Rate-Div-img">
-                                            <img src="https://i.imgur.com/patRaJD.png" className="HotelRoom-Left-Card-Subject-Rate-img" alt="fees" />
+                                            <Image src="https://i.imgur.com/patRaJD.png" className="HotelRoom-Left-Card-Subject-Rate-img" alt="fees"></Image>
                                         </div>
                                         <div className="HotelRoom-Left-Card-Subject-Rate-Div-span">
                                             <span className="HotelRoom-Left-Card-Subject-Rate-span">Daily Rate</span>
@@ -136,7 +137,7 @@ export default function HotelRoomHome() {
                                         </div>
                                         <div className="HotelRoomsHome-Right-Content-Head">
                                             <div className="HotelRoomsHome-Right-Content-Head-img">
-                                                <img src={`${item?.attributes?.Images}`} alt="room2" />
+                                                <Image src={`${item?.attributes?.Images}`} alt="room2"></Image>
                                                 <span>Review</span>
                                             </div>
                                         </div>
@@ -148,7 +149,7 @@ export default function HotelRoomHome() {
                                                 <ul className="HotelRoomsHome-Right-Content-Body-Card-ul">
                                                     <li className="HotelRoomsHome-Right-Content-Body-Card-li">
                                                         <div className="HotelRoomsHome-Right-Content-Body-Card-li-Div-img">
-                                                            <img src="https://i.imgur.com/G4B8HdS.png" className="HotelRoomsHome-Right-Content-Body-Card-li-img" alt="square" />
+                                                            <Image src="https://i.imgur.com/G4B8HdS.png" className="HotelRoomsHome-Right-Content-Body-Card-li-img" alt="square"></Image>
                                                         </div>
                                                         <div className="HotelRoomsHome-Right-Content-Body-Card-li-Div-h1">
                                                             <h1 className="HotelRoomsHome-Right-Content-Body-Card-li-h1">{item?.attributes?.NumberSquareMetre}</h1>
@@ -162,7 +163,7 @@ export default function HotelRoomHome() {
                                                     </li>
                                                     <li className="HotelRoomsHome-Right-Content-Body-Card-li">
                                                         <div className="HotelRoomsHome-Right-Content-Body-Card-li-Div-img">
-                                                            <img src="https://i.imgur.com/BwDsjBe.png" className="HotelRoomsHome-Right-Content-Body-Card-li-img" alt="bedroom" />
+                                                            <Image src="https://i.imgur.com/BwDsjBe.png" className="HotelRoomsHome-Right-Content-Body-Card-li-img" alt="bedroom"></Image>
                                                         </div>
                                                         <div className="HotelRoomsHome-Right-Content-Body-Card-li-Div-h1">
                                                             <h1 className="HotelRoomsHome-Right-Content-Body-Card-li-h1">{item?.attributes?.NumberBedroom}</h1>
@@ -176,7 +177,7 @@ export default function HotelRoomHome() {
                                                     </li>
                                                     <li className="HotelRoomsHome-Right-Content-Body-Card-li">
                                                         <div className="HotelRoomsHome-Right-Content-Body-Card-li-Div-img">
-                                                            <img src="https://i.imgur.com/5G936Gs.png" className="HotelRoomsHome-Right-Content-Body-Card-li-img" alt="bathtub" />
+                                                            <Image src="https://i.imgur.com/5G936Gs.png" className="HotelRoomsHome-Right-Content-Body-Card-li-img" alt="bathtub"></Image>
                                                         </div>
                                                         <div className="HotelRoomsHome-Right-Content-Body-Card-li-Div-h1">
                                                             <h1 className="HotelRoomsHome-Right-Content-Body-Card-li-h1">{item?.attributes?.NumberBathroom}</h1>
@@ -190,7 +191,7 @@ export default function HotelRoomHome() {
                                                     </li>
                                                     <li className="HotelRoomsHome-Right-Content-Body-Card-li">
                                                         <div className="HotelRoomsHome-Right-Content-Body-Card-li-Div-img">
-                                                            <img src="https://i.imgur.com/mLOfXqg.png" className="HotelRoomsHome-Right-Content-Body-Card-li-img" alt="rating" />
+                                                            <Image src="https://i.imgur.com/mLOfXqg.png" className="HotelRoomsHome-Right-Content-Body-Card-li-img" alt="rating"></Image>
                                                         </div>
                                                         <div className="HotelRoomsHome-Right-Content-Body-Card-li-Div-h1">
                                                             <h1 className="HotelRoomsHome-Right-Content-Body-Card-li-h1">{item?.attributes?.NumberRaiting1}/{item?.attributes?.NumberRaiting2}</h1>
@@ -208,7 +209,7 @@ export default function HotelRoomHome() {
                                     </div>
                                     <div className="HotelRoom-Right-Card-Subject-Rate">
                                         <div className="HotelRoom-Right-Card-Subject-Rate-Div-img">
-                                            <img src="https://i.imgur.com/patRaJD.png" className="HotelRoom-Right-Card-Subject-Rate-img" alt="fees" />
+                                            <Image src="https://i.imgur.com/patRaJD.png" className="HotelRoom-Right-Card-Subject-Rate-img" alt="fees"></Image>
                                         </div>
                                         <div className="HotelRoom-Right-Card-Subject-Rate-Div-span">
                                             <span className="HotelRoom-Right-Card-Subject-Rate-span">Daily Rate</span>

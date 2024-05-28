@@ -2,7 +2,7 @@ import React, { use, useEffect, useState } from "react";
 import '../styles/stylesComponents/WhyHoli.css';
 import axios from "axios";
 import { whyHoliApi } from "../singleTypes/SingleTypesApi";
-
+import Image from 'next/image';
 
 export default function WhyHoli() {
     const [data, setData] = useState(null);
@@ -39,7 +39,7 @@ export default function WhyHoli() {
             <div key={data.id} className="whyholi">
                 <div className="whyholi-Container">
                     <div className="whyholi-Container-Div-img">
-                        <img src={attributes.img1} className="whyholi-Container-img" alt="womansunbathing" />
+                        <Image src={attributes.img1} className="whyholi-Container-img" alt="womansunbathing"></Image>
                     </div>
                     <div className="whyholi-Container-Content">
                         <div className="whyholi-Container-Content-Div-h3">

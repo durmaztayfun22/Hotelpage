@@ -1,8 +1,9 @@
-import React from "react";
+import Image from 'next/image';
+import React from 'react';
 import '../styles/stylesComponents/Connection.css';
 
 export default function Connection() {
-    return(
+    return (
         <>
             <div className="ConnectionHome">
                 <div className="ConnectionHome-Container">
@@ -20,15 +21,15 @@ export default function Connection() {
                                         <div className="ConnectionHome-Container-BackgroundImg-Card-Content-Body-Form-Div-ul">
                                             <ul className="ConnectionHome-Container-BackgroundImg-Card-Content-Body-Form-ul">
                                                 <li className="ConnectionHome-Container-BackgroundImg-Card-Content-Body-Form-ul-li">
-                                                    <input type="text" className="ConnectionHome-Container-BackgroundImg-Card-Content-Body-Form-ul-li-input" name="name" id="name" placeholder="Name"/>
-                                                    <input type="text" className="ConnectionHome-Container-BackgroundImg-Card-Content-Body-Form-ul-li-input" name="surname" id="surname" placeholder="Surname"/>
+                                                    <input type="text" className="ConnectionHome-Container-BackgroundImg-Card-Content-Body-Form-ul-li-input" name="name" id="name" placeholder="Name" />
+                                                    <input type="text" className="ConnectionHome-Container-BackgroundImg-Card-Content-Body-Form-ul-li-input" name="surname" id="surname" placeholder="Surname" />
                                                 </li>
                                                 <li className="ConnectionHome-Container-BackgroundImg-Card-Content-Body-Form-ul-li">
-                                                    <input type="text" className="ConnectionHome-Container-BackgroundImg-Card-Content-Body-Form-ul-li-input" name="phone" id="phone" placeholder="Phone"/>
-                                                    <input type="text" className="ConnectionHome-Container-BackgroundImg-Card-Content-Body-Form-ul-li-input" name="mail" id="mail" placeholder="Mail"/>
+                                                    <input type="text" className="ConnectionHome-Container-BackgroundImg-Card-Content-Body-Form-ul-li-input" name="phone" id="phone" placeholder="Phone" />
+                                                    <input type="text" className="ConnectionHome-Container-BackgroundImg-Card-Content-Body-Form-ul-li-input" name="mail" id="mail" placeholder="Mail" />
                                                 </li>
                                                 <li className="ConnectionHome-Container-BackgroundImg-Card-Content-Body-Form-ul-li">
-                                                    <input type="text" className="ConnectionHome-Container-BackgroundImg-Card-Content-Body-Form-ul-li-input" name="description" id="description" placeholder="Description"/>
+                                                    <input type="text" className="ConnectionHome-Container-BackgroundImg-Card-Content-Body-Form-ul-li-input" name="description" id="description" placeholder="Description" />
                                                 </li>
                                             </ul>
                                             <button className="ConnectionHome-Container-BackgroundImg-Card-Content-Body-Form-Div-ul-Button">SEND MESSAGE</button>
@@ -37,10 +38,16 @@ export default function Connection() {
                                 </div>
                             </div>
                         </div>
-                        <img src="https://images.unsplash.com/photo-1519001112248-fbd7b9b8df52?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" className="ConnectionHome-Container-BackgroundImg-img" alt="Contact-1" />
+                        <div className="ConnectionHome-Container-BackgroundImg-img">
+                            <Image
+                                src="https://images.unsplash.com/photo-1519001112248-fbd7b9b8df52?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                                alt="Contact-1"
+                                className="ConnectionHome-Container-BackgroundImg-img"
+                            />
+                        </div>
                     </div>
                 </div>
             </div>
         </>
-    )
+    );
 }

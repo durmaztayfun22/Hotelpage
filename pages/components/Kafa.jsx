@@ -3,6 +3,7 @@ import Link from "next/link";
 import '../styles/stylesComponents/Kafa.css';
 import axios from "axios";
 import { KafaApi } from "../singleTypes/SingleTypesApi";
+import Image from 'next/image';
 
 export default function Kafa() {
     const [data, setData] = useState(null);
@@ -38,7 +39,7 @@ export default function Kafa() {
         <div key={data.id} className="BaslikAll">
             <div className="BaslikAll-Head">
                 <div className="BaslikAll-Head-img">
-                    <img src={attributes.imgURL} alt="kafaArkaplan" />
+                    <Image src={attributes.imgURL} alt="kafaArkaplan"></Image>
                 </div>
                 <div className="BaslikAll-Head-overlay">
                     <h1>{attributes.h1}</h1>

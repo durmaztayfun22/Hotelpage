@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
+import Image from "next/image";
 import '../styles/stylesComponents/AboutCont.css';
 import { AboutContApi } from "../singleTypes/SingleTypesApi";
 
@@ -40,14 +41,14 @@ export default function AboutCont() {
                                 </div>
                             </div>
                             <div className="AboutCont-Right-Card-Div-img">
-                                <img src={data.attributes.RightImageURLHead} alt="" className="AboutCont-Right-Card-img"/>
+                                <Image src={data.attributes.RightImageURLHead} alt="" width={300} height={200} className="AboutCont-Right-Card-img"/>
                             </div>
                         </div>
                     </div>
                     <div className="AboutCont-Left">
                         <div className="AboutCont-Left-Card">
                             <div className="AboutCont-Left-Card-Div-img">
-                                <img src={data.attributes.LeftImageURL} alt="" className="AboutCont-Left-Card-img"/>
+                                <Image src={data.attributes.LeftImageURL} alt="" width={300} height={200} className="AboutCont-Left-Card-img"/>
                             </div>
                             <div className="AboutCont-Left-Card-Div">
                                 <div className="AboutCont-Left-Card-Div-h3">
@@ -70,7 +71,7 @@ export default function AboutCont() {
                                 </div>
                             </div>
                             <div className="AboutCont-Right-Card-Div-img">
-                                <img src={data.attributes.RightImageURLFoot} alt="" className="AboutCont-Right-Card-img"/>
+                                <Image src={data.attributes.RightImageURLFoot} alt="" width={300} height={200} className="AboutCont-Right-Card-img"/>
                             </div>
                         </div>
                     </div>
