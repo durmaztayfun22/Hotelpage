@@ -42,7 +42,7 @@ export default function WhyHoli() {
             <div key={data.id} className="whyholi">
                 <div className="whyholi-Container">
                     <div className="whyholi-Container-Div-img">
-                        <Image src={attributes.img1} className="whyholi-Container-img" alt="womansunbathing"/>
+                        <Image src={attributes.img1} width={720} height={900} className="whyholi-Container-img" alt="womansunbathing"/>
                     </div>
                     <div className="whyholi-Container-Content">
                         <div className="whyholi-Container-Content-Div-h3">

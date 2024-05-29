@@ -10,10 +10,9 @@ export default function About() {
     return(
         <>
             <Head>
-                <Kafa />
             </Head>
             <div className="aboutpage">
-                
+                <Kafa />
                 <WhyHoli/>
                 <AboutCont />
                 <Ayak/>

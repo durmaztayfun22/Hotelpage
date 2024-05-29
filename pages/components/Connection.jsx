@@ -45,6 +45,8 @@ export default function Connection() {
                                 src="https://images.unsplash.com/photo-1519001112248-fbd7b9b8df52?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                                 alt="Contact-1"
                                 className="ConnectionHome-Container-BackgroundImg-img"
+                                width={1500}
+                                height={950}
                             />
                         </div>
                     </div>

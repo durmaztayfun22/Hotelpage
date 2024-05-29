@@ -44,15 +44,15 @@ export default function AboutCont() {
                                 </div>
                             </div>
                             <div className="AboutCont-Right-Card-Div-img">
-                                <Image src={data.attributes.RightImageURLHead} alt=""  className="AboutCont-Right-Card-img"/>
+                                <Image src={data.attributes.RightImageURLHead} width={500} height={450} alt=""  className="AboutCont-Right-Card-img"/>
                             </div>
                         </div>
                     </div>
                     <div className="AboutCont-Left">
                         <div className="AboutCont-Left-Card">
                             <div className="AboutCont-Left-Card-Div-img">
-                                <Image src={data.attributes.LeftImageURL} alt="" className="AboutCont-Left-Card-img"/>
-                            </div>
+                                <Image src={data.attributes.LeftImageURL} width={500} height={450} alt="" className="AboutCont-Left-Card-img"/>
+                            </div> 
                             <div className="AboutCont-Left-Card-Div">
                                 <div className="AboutCont-Left-Card-Div-h3">
                                     <h3 className="AboutCont-Left-Card-h3">{data.attributes.LeftH3}</h3>
@@ -74,7 +74,7 @@ export default function AboutCont() {
                                 </div>
                             </div>
                             <div className="AboutCont-Right-Card-Div-img">
-                                <Image src={data.attributes.RightImageURLFoot} alt=""  className="AboutCont-Right-Card-img"/>
+                                <Image src={data.attributes.RightImageURLFoot} width={450} height={450} alt=""  className="AboutCont-Right-Card-img"/>
                             </div>
                         </div>
                     </div>

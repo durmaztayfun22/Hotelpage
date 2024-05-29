@@ -11,10 +11,10 @@ export default function App() {
     return (
         <>
             <Head>
-                <Kafa />
+                
             </Head>
             <div className="homepage">
-                
+                <Kafa />
                 <HotelRoomHome />
                 <Cards />
                 <HotelSelectionHome />

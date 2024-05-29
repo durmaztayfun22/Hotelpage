@@ -10,9 +10,10 @@ export default function Cities() {
     return(
         <>
             <Head>
-                <Kafa />
+                
             </Head>
             <div className="Cities-Home">
+                <Kafa />
                 <CitiesBest />
                 {/* <CarouselBody /> */}
                 <Ayak />

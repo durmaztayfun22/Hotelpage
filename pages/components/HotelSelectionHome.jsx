@@ -69,7 +69,7 @@ export default function HotelSelectionHome() {
                             <div className="HotelSelectionHome-Container-Body-Cards-1">
                                 <div className="HotelSelectionHome-Container-Body-Cards-1-Subject">
                                     <div className="HotelSelectionHome-Container-Body-Cards-1-Subject-Div-img">
-                                        <Image src={attributes.img1} alt="hotel-1" className="HotelSelectionHome-Container-Body-Cards-1-Subject-img"/>
+                                        <Image src={attributes.img1} width={500} height={375}  alt="hotel-1" className="HotelSelectionHome-Container-Body-Cards-1-Subject-img"/>
                                     </div>
                                     <div className="HotelSelectionHome-Container-Body-Cards-1-Subject-Div-span">
                                         <span className="HotelSelectionHome-Container-Body-Cards-1-Subject-span">{attributes.span1}</span>
@@ -77,7 +77,7 @@ export default function HotelSelectionHome() {
                                 </div>
                                 <div className="HotelSelectionHome-Container-Body-Cards-1-Subject">
                                     <div className="HotelSelectionHome-Container-Body-Cards-1-Subject-Div-img">
-                                        <Image src={attributes.img2} alt="hotel-2" className="HotelSelectionHome-Container-Body-Cards-1-Subject-img"/>
+                                        <Image src={attributes.img2} width={500} height={375}  alt="hotel-2" className="HotelSelectionHome-Container-Body-Cards-1-Subject-img"/>
                                     </div>
                                     <div className="HotelSelectionHome-Container-Body-Cards-1-Subject-Div-span">
                                         <span className="HotelSelectionHome-Container-Body-Cards-1-Subject-span">{attributes.span2}</span>
@@ -87,7 +87,7 @@ export default function HotelSelectionHome() {
                             <div className="HotelSelectionHome-Container-Body-Cards-2">
                                 <div className="HotelSelectionHome-Container-Body-Cards-2-Subject">
                                     <div className="HotelSelectionHome-Container-Body-Cards-2-Subject-Div-img">
-                                        <Image src={attributes.img3} alt="hotel-3" className="HotelSelectionHome-Container-Body-Cards-2-Subject-img"/>
+                                        <Image src={attributes.img3} width={500} height={375}  alt="hotel-3" className="HotelSelectionHome-Container-Body-Cards-2-Subject-img"/>
                                     </div>
                                     <div className="HotelSelectionHome-Container-Body-Cards-2-Subject-Div-span">
                                         <span className="HotelSelectionHome-Container-Body-Cards-2-Subject-span">{attributes.span3}</span>
@@ -95,7 +95,7 @@ export default function HotelSelectionHome() {
                                 </div>
                                 <div className="HotelSelectionHome-Container-Body-Cards-2-Subject">
                                     <div className="HotelSelectionHome-Container-Body-Cards-2-Subject-Div-img">
-                                        <Image src={attributes.img4} alt="hotel-4" className="HotelSelectionHome-Container-Body-Cards-2-Subject-img"/>
+                                        <Image src={attributes.img4} width={500} height={375}  alt="hotel-4" className="HotelSelectionHome-Container-Body-Cards-2-Subject-img"/>
                                     </div>
                                     <div className="HotelSelectionHome-Container-Body-Cards-2-Subject-Div-span">
                                         <span className="HotelSelectionHome-Container-Body-Cards-2-Subject-span">{attributes.span4}</span>

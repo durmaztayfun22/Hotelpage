@@ -10,9 +10,10 @@ export default function HotelRoomsPage() {
     return(
         <>
             <Head>
-                <Kafa />
+                
             </Head>
             <div className="HotelRoomsPageHome">
+                <Kafa />
                 <HoliRooms />
                 <Ayak />
             </div>

@@ -16,13 +16,6 @@
     z-index: -1;
 }
 
-.BaslikAll-Head-img img {
-    width: 100%;
-    height: 450px;
-    position: absolute;
-    z-index: -1;
-}
-
 .BaslikAll-Head-overlay {
     width: auto;
     height: auto;

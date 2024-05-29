@@ -9,9 +9,9 @@ export default function Contact() {
     return(
         <>
             <Head>
-                <Kafa />
             </Head>
             <div className="Contact-Home">
+                <Kafa />
                 <Connection />
                 <Ayak />
             </div>

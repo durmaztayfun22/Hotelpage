@@ -42,7 +42,7 @@ export default function Kafa() {
         <div key={data.id} className="BaslikAll">
             <div className="BaslikAll-Head">
                 <div className="BaslikAll-Head-img">
-                    <Image src={attributes.imgURL} alt="kafaArkaplan"/>
+                    <Image src={attributes.imgURL} width={1902} height={450} alt="kafaArkaplan"/>
                 </div>
                 <div className="BaslikAll-Head-overlay">
                     <h1>{attributes.h1}</h1>
