@@ -2,12 +2,14 @@ import React, { use, useEffect, useState } from "react";
 import '../styles/stylesComponents/CitiesBest.css';
 
 // import { citiesbestApi } from "../singleTypes/SingleTypesApi";
-import { citiesbestApiEndpoint } from "../singleTypes/SingleTypesApi";
+
 import axios from "axios";
 
 export default function CitiesBest() {
     const [data, setData] = useState(null);
     const [loading, setLoading] = useState(true);
+
+    const citiesbestApiEndpoint = process.env.citiesbestApi;
 
     const fetchData = async () => {
         try {

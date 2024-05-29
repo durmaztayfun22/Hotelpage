@@ -3,10 +3,12 @@ import axios from "axios";
 import Image from "next/image";
 import '../styles/stylesComponents/AboutCont.css';
 // import { AboutContApi } from "../singleTypes/SingleTypesApi";
-import { AboutContApiEndpoint } from "../singleTypes/SingleTypesApi";
+
 
 export default function AboutCont() {
     const [data, setData] = useState(null);
+
+    const AboutContApiEndpoint = process.env.AboutContApi;
 
     const fetchData = async () => {
         try {

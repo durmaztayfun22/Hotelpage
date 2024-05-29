@@ -1,13 +1,15 @@
 import React, {useEffect, useState} from "react";
 import axios from "axios";
 // import { api } from '../api.js';
-import { apiEndpoint } from "../api";
+
 import '../styles/stylesComponents/HoliRooms.css';
 import Image from 'next/image';
 
 export default function HoliRooms() {
 
     const [data, setData] = useState([]);
+
+    const apiEndpoint = process.env.api;
 
     const fetchData = async () => {
         try {

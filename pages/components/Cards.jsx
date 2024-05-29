@@ -2,12 +2,14 @@ import Image from 'next/image';
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 // import { CardApi } from '../singleTypes/SingleTypesApi';
-import { CardApiEndpoint } from '../singleTypes/SingleTypesApi';
+
 import '../styles/stylesComponents/Cards.css';
 
 export default function Cards() {
     const [data, setData] = useState(null);
     const [loading, setLoading] = useState(true);
+
+    const CardApiEndpoint = process.env.CardApi;
 
     const fetchData = async () => {
         try {

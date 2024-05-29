@@ -8,6 +8,8 @@ import Image from 'next/image';
 export default function WhyHoli() {
     const [data, setData] = useState(null);
     const [loading, setLoading] = useState(true);
+    
+    const whyHoliApiEndpoint = process.env.whyHoliApi;
 
     const fetchData = async () => {
         try {

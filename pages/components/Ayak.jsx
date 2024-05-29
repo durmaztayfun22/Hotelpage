@@ -19,12 +19,13 @@ const iconMap = {
 };
 
 // import { AyakApi } from "../singleTypes/SingleTypesApi";
-import { AyakApiEndpoint } from "../singleTypes/SingleTypesApi";
+
 
 export default function Ayak() {
     const [data, setData] = useState(null);
     const [loading, setLoading] = useState(true);
 
+    const AyakApiEndpoint = process.env.AyakApi;
 
     const fetchData = async () => {
         try {

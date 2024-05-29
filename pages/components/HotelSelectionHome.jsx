@@ -2,12 +2,13 @@ import React, {useEffect, useState} from "react";
 import '../styles/stylesComponents/HotelSelectionHome.css';
 import axios from "axios";
 // import { HotelSelecetionHomeApi } from "../singleTypes/SingleTypesApi";
-import { HotelSelecetionHomeApiEndpoint } from "../singleTypes/SingleTypesApi";
 import Image from 'next/image';
 
 export default function HotelSelectionHome() {
     const [data, setData] = useState(null);
     const [loading, setLoading] = useState(true);
+
+    const HotelSelecetionHomeApiEndpoint = process.env.HotelSelecetionHomeApi;
 
     const fetchData = async () => {
         try {

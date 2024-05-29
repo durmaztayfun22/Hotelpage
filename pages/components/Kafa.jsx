@@ -3,12 +3,14 @@ import Link from "next/link";
 import '../styles/stylesComponents/Kafa.css';
 import axios from "axios";
 // import { KafaApi } from "../singleTypes/SingleTypesApi";
-import { KafaApiEndpoint } from "../singleTypes/SingleTypesApi";
+
 import Image from 'next/image';
 
 export default function Kafa() {
     const [data, setData] = useState(null);
     const [loading, setLoading] = useState(true);
+
+    const KafaApiEndpoint = process.env.KafaApi;
 
     const fetchData = async () => {
         try {
