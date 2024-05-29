@@ -3,8 +3,6 @@ import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 // import { CardApi } from '../singleTypes/SingleTypesApi';
 
-
-
 export default function Cards() {
     const [data, setData] = useState(null);
     const [loading, setLoading] = useState(true);
@@ -22,6 +20,7 @@ export default function Cards() {
             setLoading(false);
         }
     };
+
 
     useEffect(() => {
         fetchData();

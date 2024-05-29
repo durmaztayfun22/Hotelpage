@@ -1,6 +1,4 @@
 import React, { use, useEffect, useState } from "react";
-
-
 // import { citiesbestApi } from "../singleTypes/SingleTypesApi";
 
 import axios from "axios";
