@@ -3,7 +3,7 @@ import axios from "axios";
 // import { api } from './api';
 // import { api } from '../api.js';
 
-import '../styles/stylesComponents/HotelRoomHome.css';
+
 import Image from 'next/image';
 
 export default function HotelRoomHome() {

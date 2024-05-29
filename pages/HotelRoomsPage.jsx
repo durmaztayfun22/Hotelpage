@@ -1,5 +1,5 @@
 import React from "react";
-import './styles/HotelRoomsPage.css';
+
 import Head from 'next/head'; 
 import Kafa from "./components/Kafa";
 import HoliRooms from "./components/HoliRooms";

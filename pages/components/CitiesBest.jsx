@@ -1,5 +1,5 @@
 import React, { use, useEffect, useState } from "react";
-import '../styles/stylesComponents/CitiesBest.css';
+
 
 // import { citiesbestApi } from "../singleTypes/SingleTypesApi";
 

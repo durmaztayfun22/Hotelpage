@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Link from "next/link";
-import '../styles/stylesComponents/Kafa.css';
+
 import axios from "axios";
 // import { KafaApi } from "../singleTypes/SingleTypesApi";
 

@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 import Image from "next/image";
-import '../styles/stylesComponents/AboutCont.css';
+
 // import { AboutContApi } from "../singleTypes/SingleTypesApi";
 
 

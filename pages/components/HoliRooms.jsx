@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from "react";
 import axios from "axios";
-import '../styles/stylesComponents/HoliRooms.css';
+
 import Image from 'next/image';
 
 export default function HoliRooms() {

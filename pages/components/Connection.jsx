@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import React from 'react';
-import '../styles/stylesComponents/Connection.css';
+
 
 export default function Connection() {
     return (

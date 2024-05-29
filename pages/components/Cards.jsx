@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 // import { CardApi } from '../singleTypes/SingleTypesApi';
 
-import '../styles/stylesComponents/Cards.css';
+
 
 export default function Cards() {
     const [data, setData] = useState(null);

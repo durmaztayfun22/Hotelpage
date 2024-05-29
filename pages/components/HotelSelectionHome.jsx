@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from "react";
-import '../styles/stylesComponents/HotelSelectionHome.css';
+
 import axios from "axios";
 // import { HotelSelecetionHomeApi } from "../singleTypes/SingleTypesApi";
 import Image from 'next/image';

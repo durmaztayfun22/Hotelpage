@@ -1,5 +1,5 @@
 import React from "react";
-import './styles/Contact.css';
+
 import Head from 'next/head'; 
 import Kafa from "./components/Kafa";
 import Connection from "./components/Connection";
