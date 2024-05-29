@@ -1,7 +1,5 @@
 import React, {useEffect, useState} from "react";
 import axios from "axios";
-// import { api } from '../api.js';
-
 import '../styles/stylesComponents/HoliRooms.css';
 import Image from 'next/image';
 
