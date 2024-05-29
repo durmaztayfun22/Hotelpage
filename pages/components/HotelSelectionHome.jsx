@@ -1,7 +1,8 @@
 import React, {useEffect, useState} from "react";
 import '../styles/stylesComponents/HotelSelectionHome.css';
 import axios from "axios";
-import { HotelSelecetionHomeApi } from "../singleTypes/SingleTypesApi";
+// import { HotelSelecetionHomeApi } from "../singleTypes/SingleTypesApi";
+import { HotelSelecetionHomeApiEndpoint } from "../singleTypes/SingleTypesApi";
 import Image from 'next/image';
 
 export default function HotelSelectionHome() {
@@ -10,7 +11,7 @@ export default function HotelSelectionHome() {
 
     const fetchData = async () => {
         try {
-            const res = await axios.get(`${HotelSelecetionHomeApi}`);
+            const res = await axios.get(`${HotelSelecetionHomeApiEndpoint}`);
             console.log("API Response:", res.data);
             setData(res.data.data);
             setLoading(false);

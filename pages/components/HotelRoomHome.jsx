@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 // import { api } from './api';
-import { api } from '../api.js';
+// import { api } from '../api.js';
+import { apiEndpoint } from "../api";
 import '../styles/stylesComponents/HotelRoomHome.css';
 import Image from 'next/image';
 
@@ -11,7 +12,7 @@ export default function HotelRoomHome() {
 
     const fetchData = async () => {
         try {
-            const res = await axios.get(`${api}`);
+            const res = await axios.get(`${apiEndpoint}`);
             const veri = await res.data;
             setData(veri);
             console.log(veri);

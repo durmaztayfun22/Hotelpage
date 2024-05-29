@@ -18,7 +18,8 @@ const iconMap = {
     faFax: faFax,
 };
 
-import { AyakApi } from "../singleTypes/SingleTypesApi";
+// import { AyakApi } from "../singleTypes/SingleTypesApi";
+import { AyakApiEndpoint } from "../singleTypes/SingleTypesApi";
 
 export default function Ayak() {
     const [data, setData] = useState(null);
@@ -27,7 +28,7 @@ export default function Ayak() {
 
     const fetchData = async () => {
         try {
-            const res = await axios.get(`${AyakApi}`);
+            const res = await axios.get(`${AyakApiEndpoint}`);
             console.log("API Response:", res.data);
             setData(res.data.data);
             setLoading(false);

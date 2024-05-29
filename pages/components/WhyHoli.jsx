@@ -1,7 +1,8 @@
 import React, { use, useEffect, useState } from "react";
 import '../styles/stylesComponents/WhyHoli.css';
 import axios from "axios";
-import { whyHoliApi } from "../singleTypes/SingleTypesApi";
+// import { whyHoliApi } from "../singleTypes/SingleTypesApi";
+import { whyHoliApiEndpoint } from "../singleTypes/SingleTypesApi";
 import Image from 'next/image';
 
 export default function WhyHoli() {
@@ -10,7 +11,7 @@ export default function WhyHoli() {
 
     const fetchData = async () => {
         try {
-            const res = await axios.get(`${whyHoliApi}`);
+            const res = await axios.get(`${whyHoliApiEndpoint}`);
             console.log("API Response:", res.data);
             setData(res.data.data);
             setLoading(false);

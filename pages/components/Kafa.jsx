@@ -2,7 +2,8 @@ import React, { useEffect, useState } from "react";
 import Link from "next/link";
 import '../styles/stylesComponents/Kafa.css';
 import axios from "axios";
-import { KafaApi } from "../singleTypes/SingleTypesApi";
+// import { KafaApi } from "../singleTypes/SingleTypesApi";
+import { KafaApiEndpoint } from "../singleTypes/SingleTypesApi";
 import Image from 'next/image';
 
 export default function Kafa() {
@@ -11,7 +12,7 @@ export default function Kafa() {
 
     const fetchData = async () => {
         try {
-            const res = await axios.get(`${KafaApi}`);
+            const res = await axios.get(`${KafaApiEndpoint}`);
             console.log("API Response:", res.data);
             setData(res.data.data); // Access the nested 'data' property directly
             setLoading(false);

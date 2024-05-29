@@ -1,7 +1,8 @@
 import React, { use, useEffect, useState } from "react";
 import '../styles/stylesComponents/CitiesBest.css';
 
-import { citiesbestApi } from "../singleTypes/SingleTypesApi";
+// import { citiesbestApi } from "../singleTypes/SingleTypesApi";
+import { citiesbestApiEndpoint } from "../singleTypes/SingleTypesApi";
 import axios from "axios";
 
 export default function CitiesBest() {
@@ -10,7 +11,7 @@ export default function CitiesBest() {
 
     const fetchData = async () => {
         try {
-            const res = await axios.get(`${citiesbestApi}`);
+            const res = await axios.get(`${citiesbestApiEndpoint}`);
             console.log("API Response:", res.data);
             setData(res.data.data);
             setLoading(false);

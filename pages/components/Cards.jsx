@@ -1,7 +1,8 @@
 import Image from 'next/image';
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
-import { CardApi } from '../singleTypes/SingleTypesApi';
+// import { CardApi } from '../singleTypes/SingleTypesApi';
+import { CardApiEndpoint } from '../singleTypes/SingleTypesApi';
 import '../styles/stylesComponents/Cards.css';
 
 export default function Cards() {
@@ -10,7 +11,7 @@ export default function Cards() {
 
     const fetchData = async () => {
         try {
-            const res = await axios.get(`${CardApi}`);
+            const res = await axios.get(`${CardApiEndpoint}`);
             console.log('API Response:', res.data);
             setData(res.data.data);
             setLoading(false);
