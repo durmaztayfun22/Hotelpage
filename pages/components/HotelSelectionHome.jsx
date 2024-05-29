@@ -8,7 +8,7 @@ export default function HotelSelectionHome() {
     const [data, setData] = useState(null);
     const [loading, setLoading] = useState(true);
 
-    const HotelSelecetionHomeApiEndpoint = process.env.HotelSelecetionHomeApi;
+    const HotelSelecetionHomeApiEndpoint = 'http://localhost:1337/api/hotel-selection-home';
 
     const fetchData = async () => {
         try {

@@ -7,7 +7,7 @@ export default function HoliRooms() {
 
     const [data, setData] = useState([]);
 
-    const apiEndpoint = process.env.api;
+    const apiEndpoint = 'http://localhost:1337/api/hotels';
 
     const fetchData = async () => {
         try {

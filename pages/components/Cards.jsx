@@ -7,7 +7,7 @@ export default function Cards() {
     const [data, setData] = useState(null);
     const [loading, setLoading] = useState(true);
 
-    const CardApiEndpoint = process.env.CardApi;
+    const CardApiEndpoint = 'http://localhost:1337/api/card';
 
     const fetchData = async () => {
         try {

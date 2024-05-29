@@ -7,7 +7,7 @@ export default function CitiesBest() {
     const [data, setData] = useState(null);
     const [loading, setLoading] = useState(true);
 
-    const citiesbestApiEndpoint = process.env.citiesbestApi;
+    const citiesbestApiEndpoint = 'http://localhost:1337/api/citiesbest';
 
     const fetchData = async () => {
         try {

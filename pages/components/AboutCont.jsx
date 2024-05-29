@@ -8,7 +8,7 @@ import Image from "next/image";
 export default function AboutCont() {
     const [data, setData] = useState(null);
 
-    const AboutContApiEndpoint = process.env.AboutContApi;
+    const AboutContApiEndpoint = 'http://localhost:1337/api/about-cont';
 
     const fetchData = async () => {
         try {
