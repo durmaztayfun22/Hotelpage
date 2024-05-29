@@ -2,7 +2,7 @@ import React, { use, useEffect, useState } from "react";
 import '../styles/stylesComponents/WhyHoli.css';
 import axios from "axios";
 // import { whyHoliApi } from "../singleTypes/SingleTypesApi";
-import { whyHoliApiEndpoint } from "../singleTypes/SingleTypesApi";
+
 import Image from 'next/image';
 
 export default function WhyHoli() {
