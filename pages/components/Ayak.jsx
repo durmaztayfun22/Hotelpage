@@ -25,7 +25,7 @@ export default function Ayak() {
     const [data, setData] = useState(null);
     const [loading, setLoading] = useState(true);
 
-    const AyakApiEndpoint = 'http://localhost:1337/api/ayak';
+    const AyakApiEndpoint = 'https://st2-x0kh.onrender.com/api/ayak';
 
     const fetchData = async () => {
         try {

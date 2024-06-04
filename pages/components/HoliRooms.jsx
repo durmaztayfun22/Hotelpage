@@ -7,7 +7,7 @@ export default function HoliRooms() {
 
     const [data, setData] = useState([]);
 
-    const apiEndpoint = 'http://localhost:1337/api/hotels';
+    const apiEndpoint = 'https://st2-x0kh.onrender.com/api/hotels';
 
     const fetchData = async () => {
         try {

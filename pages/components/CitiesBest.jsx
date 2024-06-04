@@ -7,7 +7,7 @@ export default function CitiesBest() {
     const [data, setData] = useState(null);
     const [loading, setLoading] = useState(true);
 
-    const citiesbestApiEndpoint = 'http://localhost:1337/api/citiesbest';
+    const citiesbestApiEndpoint = 'https://st2-x0kh.onrender.com/api/citiesbest';
 
     const fetchData = async () => {
         try {

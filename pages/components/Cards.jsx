@@ -7,7 +7,7 @@ export default function Cards() {
     const [data, setData] = useState(null);
     const [loading, setLoading] = useState(true);
 
-    const CardApiEndpoint = 'http://localhost:1337/api/card';
+    const CardApiEndpoint = 'https://st2-x0kh.onrender.com/api/card';
 
     const fetchData = async () => {
         try {

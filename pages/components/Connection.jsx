@@ -1,22 +1,54 @@
 import Image from 'next/image';
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 
+// import { connectionApi } from '../singleTypes/SingleTypesApi';
+import axios from 'axios';
 
 export default function Connection() {
+    const [data, setData] = useState(null);
+    const [loading, setLoading] = useState(true);
+
+    const connectionApiEndpoint = 'https://st2-x0kh.onrender.com/api/connection';
+
+
+    const fetchData = async () => {
+        try {
+            const res = await axios.get(`${connectionApiEndpoint}`);
+            console.log("API Response : ", res.data);
+            setData(res.data.data);
+            setLoading(false);
+        } catch (error) {
+            console.error("Error fetching Data : ", error);
+            setLoading(false);
+        }
+    }
+
+    useEffect(() => {
+        fetchData();
+    }, []);
+
+    if (loading) {
+        return <div>Loading...</div>
+    }
+
+    if (!data || !data.attributes) {
+        return <div>Error: Data not available</div>
+    }
+
+    const { attributes } = data;
+
     return (
         <>
-            <div className="ConnectionHome">
+            <div key={data.id} className="ConnectionHome">
                 <div className="ConnectionHome-Container">
                     <div className="ConnectionHome-Container-BackgroundImg">
                         <div className="ConnectionHome-Container-BackgroundImg-Card">
                             <div className="ConnectionHome-Container-BackgroundImg-Card-Content">
                                 <div className="ConnectionHome-Container-BackgroundImg-Card-Content-Div-h1">
-                                    <h1 className="ConnectionHome-Container-BackgroundImg-Card-Content-h1">Contact US</h1>
+                                    <h1 className="ConnectionHome-Container-BackgroundImg-Card-Content-h1">{attributes.h1}</h1>
                                 </div>
                                 <div className="ConnectionHome-Container-BackgroundImg-Card-Content-Div-span">
-                                <span className="ConnectionHome-Container-BackgroundImg-Card-Content-span">
-                                    Our priority is the comfort and satisfaction of our valued guests. If you have any questions, suggestions, or reservation requests, please feel free to contact us. Our professional and hospitable team is here to provide you with the best service possible. Throughout your stay at our hotel, you will be provided with any assistance and conveniences you may need. Additionally, feel free to reach out to us for more information about our hotel facilities, comfortable accommodations, and the exclusive services we offer. We look forward to welcoming you and providing you with an unforgettable stay.
-                                </span>
+                                <span className="ConnectionHome-Container-BackgroundImg-Card-Content-span">{attributes.span}</span>
                                 </div>
                                 <div className="ConnectionHome-Container-BackgroundImg-Card-Content-Body">
                                     <div className="ConnectionHome-Container-BackgroundImg-Card-Content-Body-Form">
@@ -34,7 +66,7 @@ export default function Connection() {
                                                     <input type="text" className="ConnectionHome-Container-BackgroundImg-Card-Content-Body-Form-ul-li-input" name="description" id="description" placeholder="Description" />
                                                 </li>
                                             </ul>
-                                            <button className="ConnectionHome-Container-BackgroundImg-Card-Content-Body-Form-Div-ul-Button">SEND MESSAGE</button>
+                                            <button className="ConnectionHome-Container-BackgroundImg-Card-Content-Body-Form-Div-ul-Button">{attributes.button}</button>
                                         </div>
                                     </div>
                                 </div>

@@ -80,9 +80,14 @@ const nextConfig = {
             port: '',
             pathname: '/**',
           },
+          {
+            protocol: 'https',
+            hostname: 'tar7al.com',
+            port: '',
+            pathname: '/**',
+          },
       ],
     },
   };
   
   export default nextConfig;
-  

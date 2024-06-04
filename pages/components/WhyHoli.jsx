@@ -9,7 +9,7 @@ export default function WhyHoli() {
     const [data, setData] = useState(null);
     const [loading, setLoading] = useState(true);
     
-    const whyHoliApiEndpoint = 'http://localhost:1337/api/why-holi';
+    const whyHoliApiEndpoint = 'https://st2-x0kh.onrender.com/api/whyholi';
 
     const fetchData = async () => {
         try {

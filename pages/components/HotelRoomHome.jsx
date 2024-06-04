@@ -8,7 +8,7 @@ export default function HotelRoomHome() {
 
     const [data, setData] = useState([]);
 
-    const apiEndpoint = 'http://localhost:1337/api/hotels';
+    const apiEndpoint = 'https://st2-x0kh.onrender.com/api/hotels';
 
     const fetchData = async () => {
         try {
@@ -30,7 +30,7 @@ export default function HotelRoomHome() {
         <>
             <div className="HotelRoomsHome">
                 {data?.data?.length > 0 && data?.data?.map((item) => {
-                    if (item.id == 12) {
+                    if (item.id == 11) {
                         return (
                             <>
                                 <div className="HotelRoomsHome-Left">

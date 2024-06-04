@@ -10,7 +10,7 @@ export default function Kafa() {
     const [data, setData] = useState(null);
     const [loading, setLoading] = useState(true);
 
-    const KafaApiEndpoint = 'http://localhost:1337/api/kafa';
+    const KafaApiEndpoint = 'https://st2-x0kh.onrender.com/api/kafa';
 
     const fetchData = async () => {
         try {

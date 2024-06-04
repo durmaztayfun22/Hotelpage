@@ -8,7 +8,7 @@ export default function HotelSelectionHome() {
     const [data, setData] = useState(null);
     const [loading, setLoading] = useState(true);
 
-    const HotelSelecetionHomeApiEndpoint = 'http://localhost:1337/api/hotel-selection-home';
+    const HotelSelecetionHomeApiEndpoint = 'https://st2-x0kh.onrender.com/api/hotelselectionhome';
 
     const fetchData = async () => {
         try {
