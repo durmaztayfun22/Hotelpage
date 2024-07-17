@@ -10,14 +10,12 @@ import Ayak from "./components/Ayak";
 export default function App() {
     return (
         <>
-            <Head>
-                
-            </Head>
+            <Head></Head>
             <div className="homepage">
                 <Kafa />
                 <HotelRoomHome />
                 <Cards />
-                <HotelSelectionHome />
+                {/* <HotelSelectionHome /> */}
                 <Ayak/>
             </div>
         </>

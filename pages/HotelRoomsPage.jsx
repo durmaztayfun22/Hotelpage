@@ -9,9 +9,7 @@ import Ayak from "./components/Ayak";
 export default function HotelRoomsPage() {
     return(
         <>
-            <Head>
-                
-            </Head>
+            <Head></Head>
             <div className="HotelRoomsPageHome">
                 <Kafa />
                 <HoliRooms />

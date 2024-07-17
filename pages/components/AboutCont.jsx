@@ -40,7 +40,7 @@ export default function AboutCont() {
                                     <h3 className="AboutCont-Right-Card-h3">{data.attributes.RightH3Head}</h3>
                                 </div>
                                 <div className="AboutCont-Right-Card-Div-Span">
-                                    <span className="AboutCont-Right-Card-Span">{data.attributes.RightSpanHead}</span>
+                                    <span className="AboutCont-Right-Card-Div-Span">{data.attributes.RightSpanHead}</span>
                                 </div>
                             </div>
                             <div className="AboutCont-Right-Card-Div-img">

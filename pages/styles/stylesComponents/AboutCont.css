@@ -138,3 +138,419 @@
     border-radius: 8px; /* Resime köşeli yuvarlama */
     box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Gölge efekti */
 }
+
+
+@media (max-width: 1200px) {
+    .AboutContainerHome {
+        width: 100%;
+        height: 1100px;
+    }
+    
+    .AboutContainer {
+        width: 100%;
+        height: 1050px;
+    }
+    
+    .AboutCont {
+        width: 100%;
+        height: 1000px;
+        display: block;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .AboutCont-Right {
+        width: 100%;
+        height: 300px;
+        background-color: #f0f0f0; /* Arka plan rengi */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .AboutCont-Right-Card {
+        width: 90%;
+        height: 300px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background: #ffffff;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Gölge efekti */
+        padding: 10px;
+        border-radius: 8px;
+    }
+
+    .AboutCont-Left {
+        width: 100%;
+        height: 300px;
+        background-color: #f0f0f0; /* Arka plan rengi */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .AboutCont-Left-Card {
+        width: 90%;
+        height: 300px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background: #ffffff;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Gölge efekti */
+        padding: 10px;
+        border-radius: 8px;
+    }
+
+    .AboutCont-Right-Card-h3 {
+        text-align: center; /* H3 etiketini soldan başlatır */
+        margin: 0;
+        font-size: 15px;
+    }
+
+    .AboutCont-Right-Card-Div-Span {
+        text-align: left; /* Span etiketini soldan başlatır */
+        font-size: 10px;
+    }
+
+    .AboutCont-Left-Card-h3 {
+        text-align: center; /* H3 etiketini soldan başlatır */
+        margin: 0;
+        font-size: 15px;
+    }
+
+    .AboutCont-Left-Card-Div-Span {
+        text-align: left; /* Span etiketini soldan başlatır */
+        font-size: 10px;
+    }
+
+}
+
+@media (max-width: 900px) {
+    .AboutContainerHome {
+        width: 100%;
+        height: 900px;
+    }
+    
+    .AboutContainer {
+        width: 100%;
+        height: 850px;
+    }
+    
+    .AboutCont {
+        width: 100%;
+        height: 800px;
+        display: block;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .AboutCont-Right {
+        width: 100%;
+        height: 250px;
+        background-color: #f0f0f0; /* Arka plan rengi */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .AboutCont-Right-Card {
+        width: 90%;
+        height: 250px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background: #ffffff;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Gölge efekti */
+        padding: 10px;
+        border-radius: 8px;
+    }
+
+    .AboutCont-Left {
+        width: 100%;
+        height: 250px;
+        background-color: #f0f0f0; /* Arka plan rengi */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .AboutCont-Left-Card {
+        width: 90%;
+        height: 250px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background: #ffffff;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Gölge efekti */
+        padding: 10px;
+        border-radius: 8px;
+    }
+
+    .AboutCont-Right-Card-h3 {
+        text-align: center; /* H3 etiketini soldan başlatır */
+        margin: 0;
+        font-size: 15px;
+    }
+
+    .AboutCont-Right-Card-Div-Span {
+        text-align: left; /* Span etiketini soldan başlatır */
+        font-size: 10px;
+    }
+
+    .AboutCont-Left-Card-h3 {
+        text-align: center; /* H3 etiketini soldan başlatır */
+        margin: 0;
+        font-size: 15px;
+    }
+
+    .AboutCont-Left-Card-Div-Span {
+        text-align: left; /* Span etiketini soldan başlatır */
+        font-size: 10px;
+    }
+
+}
+
+@media (max-width: 800px) {
+    .AboutContainerHome {
+        width: 100%;
+        height: 900px;
+    }
+    
+    .AboutContainer {
+        width: 100%;
+        height: 850px;
+    }
+    
+    .AboutCont {
+        width: 100%;
+        height: 800px;
+        display: block;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .AboutCont-Right {
+        width: 100%;
+        height: 250px;
+        background-color: #f0f0f0; /* Arka plan rengi */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .AboutCont-Right-Card {
+        width: 90%;
+        height: 250px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background: #ffffff;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Gölge efekti */
+        padding: 10px;
+        border-radius: 8px;
+    }
+
+    .AboutCont-Left {
+        width: 100%;
+        height: 250px;
+        background-color: #f0f0f0; /* Arka plan rengi */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .AboutCont-Left-Card {
+        width: 90%;
+        height: 250px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background: #ffffff;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Gölge efekti */
+        padding: 10px;
+        border-radius: 8px;
+    }
+
+    .AboutCont-Right-Card-h3 {
+        text-align: center; /* H3 etiketini soldan başlatır */
+        margin: 0;
+        font-size: 13px;
+    }
+
+    .AboutCont-Right-Card-Div-Span {
+        text-align: left; /* Span etiketini soldan başlatır */
+        font-size: 9px;
+    }
+
+    .AboutCont-Left-Card-h3 {
+        text-align: center; /* H3 etiketini soldan başlatır */
+        margin: 0;
+        font-size: 13px;
+    }
+
+    .AboutCont-Left-Card-Div-Span {
+        text-align: left; /* Span etiketini soldan başlatır */
+        font-size: 9px;
+    }
+
+}
+
+@media (max-width: 600px){
+    .AboutContainerHome {
+        width: 100%;
+        height: 900px;
+    }
+    
+    .AboutContainer {
+        width: 100%;
+        height: 850px;
+    }
+    
+    .AboutCont {
+        width: 100%;
+        height: 800px;
+        display: block;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .AboutCont-Right {
+        width: 100%;
+        height: 250px;
+        background-color: #f0f0f0; /* Arka plan rengi */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .AboutCont-Right-Card {
+        width: 90%;
+        height: 250px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background: #ffffff;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Gölge efekti */
+        padding: 10px;
+        border-radius: 8px;
+    }
+
+    .AboutCont-Left {
+        width: 100%;
+        height: 250px;
+        background-color: #f0f0f0; /* Arka plan rengi */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .AboutCont-Left-Card {
+        width: 90%;
+        height: 250px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background: #ffffff;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Gölge efekti */
+        padding: 10px;
+        border-radius: 8px;
+    }
+
+    .AboutCont-Right-Card-h3 {
+        text-align: center; /* H3 etiketini soldan başlatır */
+        margin: 0;
+        font-size: 12px;
+    }
+
+    .AboutCont-Right-Card-Div-Span {
+        text-align: left; /* Span etiketini soldan başlatır */
+        font-size: 8px;
+    }
+
+    .AboutCont-Left-Card-h3 {
+        text-align: center; /* H3 etiketini soldan başlatır */
+        margin: 0;
+        font-size: 12px;
+    }
+
+    .AboutCont-Left-Card-Div-Span {
+        text-align: left; /* Span etiketini soldan başlatır */
+        font-size: 8px;
+    }
+
+}
+
+@media (max-width: 400px){
+    .AboutCont-Right-Card-h3 {
+        text-align: center; /* H3 etiketini soldan başlatır */
+        margin: 0;
+        font-size: 11px;
+    }
+
+    .AboutCont-Right-Card-Div-Span {
+        text-align: left; /* Span etiketini soldan başlatır */
+        font-size: 7px;
+    }
+
+    .AboutCont-Left-Card-h3 {
+        text-align: center; /* H3 etiketini soldan başlatır */
+        margin: 0;
+        font-size: 11px;
+    }
+
+    .AboutCont-Left-Card-Div-Span {
+        text-align: left; /* Span etiketini soldan başlatır */
+        font-size: 7px;
+    }
+
+}
+
+@media (max-width: 300px){
+    .AboutCont-Right-Card-h3 {
+        text-align: center; /* H3 etiketini soldan başlatır */
+        margin: 0;
+        font-size: 10px;
+    }
+
+    .AboutCont-Right-Card-Div-Span {
+        text-align: left; /* Span etiketini soldan başlatır */
+        font-size: 6px;
+    }
+
+    .AboutCont-Left-Card-h3 {
+        text-align: center; /* H3 etiketini soldan başlatır */
+        margin: 0;
+        font-size: 10px;
+    }
+
+    .AboutCont-Left-Card-Div-Span {
+        text-align: left; /* Span etiketini soldan başlatır */
+        font-size: 6px;
+    }
+
+}
+
+@media (max-width: 200px){
+    .AboutCont-Right-Card-h3 {
+        text-align: center; /* H3 etiketini soldan başlatır */
+        margin: 0;
+        font-size: 9px;
+    }
+
+    .AboutCont-Right-Card-Div-Span {
+        text-align: left; /* Span etiketini soldan başlatır */
+        font-size: 5px;
+    }
+
+    .AboutCont-Left-Card-h3 {
+        text-align: center; /* H3 etiketini soldan başlatır */
+        margin: 0;
+        font-size: 9px;
+    }
+
+    .AboutCont-Left-Card-Div-Span {
+        text-align: left; /* Span etiketini soldan başlatır */
+        font-size: 5px;
+    }
+
+}

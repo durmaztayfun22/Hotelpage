@@ -66,27 +66,27 @@ export default function Ayak() {
                                 <ul className="Foots-Container-Head-body-Right-ul">
                                     <li className="Foots-Container-Head-body-Right-ul-li">
                                         <a href={attributes.Ahref1}>
-                                            <FontAwesomeIcon icon={iconMap[attributes.faceIcon]} style={{ color: 'white', fontSize: '24px' }} />
+                                            <FontAwesomeIcon className="social-icon" icon={iconMap[attributes.faceIcon]} style={{ color: 'white' }} />
                                         </a>
                                     </li>
                                     <li className="Foots-Container-Head-body-Right-ul-li">
                                         <a href={attributes.Ahref2}>
-                                            <FontAwesomeIcon icon={iconMap[attributes.TwitIcon]} style={{ color: 'white', fontSize: '24px' }} />
+                                            <FontAwesomeIcon className="social-icon" icon={iconMap[attributes.TwitIcon]} style={{ color: 'white' }} />
                                         </a>
                                     </li>
                                     <li className="Foots-Container-Head-body-Right-ul-li">
                                         <a href={attributes.Ahref3}>
-                                            <FontAwesomeIcon icon={iconMap[attributes.InstaIcon]} style={{ color: 'white', fontSize: '24px' }} />
+                                            <FontAwesomeIcon className="social-icon" icon={iconMap[attributes.InstaIcon]} style={{ color: 'white' }} />
                                         </a>
                                     </li>
                                     <li className="Foots-Container-Head-body-Right-ul-li">
                                         <a href={attributes.Ahref4}>
-                                            <FontAwesomeIcon icon={iconMap[attributes.LinkIcon]} style={{ color: 'white', fontSize: '24px' }} />
+                                            <FontAwesomeIcon className="social-icon" icon={iconMap[attributes.LinkIcon]} style={{ color: 'white' }} />
                                         </a>
                                     </li>
                                     <li className="Foots-Container-Head-body-Right-ul-li">
                                         <a href={attributes.Ahref5}>
-                                            <FontAwesomeIcon icon={iconMap[attributes.GitIcon]} style={{ color: 'white', fontSize: '24px' }} />
+                                            <FontAwesomeIcon className="social-icon" icon={iconMap[attributes.GitIcon]} style={{ color: 'white' }} />
                                         </a>
                                     </li>
                                 </ul>

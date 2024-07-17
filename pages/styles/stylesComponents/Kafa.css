@@ -55,7 +55,6 @@
 .BaslikAll-Body-Right {
     width: 50%;
     float: right;
-    
 }
 
 .BaslikAll-Body-Right-ul {
@@ -74,3 +73,595 @@
     display: inline-block; /* Metinleri yan yana yerleştir */
     white-space: nowrap; /* Metinlerin yeni satıra geçmesini engelle */
 }
+
+@media (max-width: 1700px) {
+    .BaslikAll-Head-overlay {
+        width: auto;
+        height: auto;
+        display: block;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        position: relative;
+        z-index: +1;
+        padding-top: 19%;
+        color: white;
+    }
+
+}
+
+@media (max-width: 1600px) {
+    .BaslikAll-Head-overlay {
+        width: auto;
+        height: auto;
+        display: block;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        position: relative;
+        z-index: +1;
+        padding-top: 20%;
+        color: white;
+    }
+
+}
+
+@media (max-width: 1500px) {
+    .BaslikAll-Head-overlay {
+        width: auto;
+        height: auto;
+        display: block;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        position: relative;
+        z-index: +1;
+        padding-top: 21%;
+        color: white;
+    }
+
+}
+
+@media (max-width: 1400px) {
+    .BaslikAll-Head-overlay {
+        width: auto;
+        height: auto;
+        display: block;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        position: relative;
+        z-index: +1;
+        padding-top: 22%;
+        color: white;
+    }
+
+    .BaslikAll-Body-Left {
+        width: 45%;
+        float: left;
+    }
+    .BaslikAll-Body-Left h3 {
+        padding-right: 0;
+    }
+    
+    .BaslikAll-Body-Right {
+        width: 55%;
+        float: right;
+    }
+    
+    .BaslikAll-Body-Right-ul {
+        list-style: none;
+        display: flex;
+        padding-left: 0;
+    }
+    
+    .BaslikAll-Body-Right-li {
+        padding-left: 5%;
+    }
+}
+
+@media (max-width: 1300px) {
+    .BaslikAll-Head-overlay {
+        width: auto;
+        height: auto;
+        display: block;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        position: relative;
+        z-index: +1;
+        padding-top: 23%;
+        color: white;
+    }
+    .BaslikAll-Body-Left {
+        width: 45%;
+        float: left;
+    }
+    .BaslikAll-Body-Left h3 {
+        padding-right: 0;
+    }
+    
+    .BaslikAll-Body-Right {
+        width: 55%;
+        float: right;
+    }
+    
+    .BaslikAll-Body-Right-ul {
+        list-style: none;
+        display: flex;
+        padding-left: 0;
+    }
+    
+    .BaslikAll-Body-Right-li {
+        padding-left: 5%;
+    }
+
+}
+
+@media (max-width: 1200px) {
+    .BaslikAll-Head-overlay {
+        width: auto;
+        height: auto;
+        display: block;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        position: relative;
+        z-index: +1;
+        padding-top: 24%;
+        color: white;
+    }
+
+    .BaslikAll-Body-Left {
+        width: 40%;
+        float: left;
+    }
+    .BaslikAll-Body-Left h3 {
+        padding-right: 0;
+    }
+    
+    .BaslikAll-Body-Right {
+        width: 60%;
+        float: right;
+    }
+    
+    .BaslikAll-Body-Right-ul {
+        list-style: none;
+        display: flex;
+        padding-left: 0;
+    }
+    
+    .BaslikAll-Body-Right-li {
+        padding-left: 5%;
+    }
+
+}
+
+@media (max-width: 1100px) {
+    .BaslikAll {
+        margin-top: 0;
+        width: 100%;
+        height: 600px;
+    }
+    
+    .BaslikAll-Head {
+        width: 100%;
+        height: 400px;
+    }
+    
+    .BaslikAll-Head-img {
+        width: 100%;
+        height: 350px;
+        position: absolute;
+        z-index: -1;
+    }
+    
+    .BaslikAll-Head-overlay {
+        width: auto;
+        height: auto;
+        display: block;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        position: relative;
+        z-index: +1;
+        padding-top: 24%;
+        color: white;
+    }
+    
+    .BaslikAll-Head-overlay h1 {
+        font-size: 27px;
+    }
+    
+    .BaslikAll-Body {
+        margin-top: 0;
+        width: 100%;
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .BaslikAll-Body-Left h3 {
+        padding-right: 35%;
+        font-size: 20px;
+    }
+
+    .BaslikAll-Body-Right-link {
+        font-size: 15px;
+        color: black; /* Link rengini beyaz yap */
+        text-decoration: none; /* Alt çizgiyi kaldır */
+        display: inline-block; /* Metinleri yan yana yerleştir */
+        white-space: nowrap; /* Metinlerin yeni satıra geçmesini engelle */
+    }
+
+    .BaslikAll-Body-Left {
+        width: 40%;
+        float: left;
+    }
+    .BaslikAll-Body-Left h3 {
+        padding-right: 0;
+    }
+    
+    .BaslikAll-Body-Right {
+        width: 60%;
+        float: right;
+    }
+    
+    .BaslikAll-Body-Right-ul {
+        list-style: none;
+        display: flex;
+        padding-left: 0;
+    }
+    
+    .BaslikAll-Body-Right-li {
+        padding-left: 5%;
+    }
+
+  }
+  
+  @media (max-width: 900px) {
+    .BaslikAll {
+        margin-top: 0;
+        width: 100%;
+        height: 500px;
+    }
+    
+    .BaslikAll-Head {
+        width: 100%;
+        height: 300px;
+    }
+    
+    .BaslikAll-Head-img {
+        width: 100%;
+        height: 250px;
+        position: absolute;
+        z-index: -1;
+    }
+    
+    .BaslikAll-Head-overlay {
+        width: auto;
+        height: auto;
+        display: block;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        position: relative;
+        z-index: +1;
+        padding-top: 18%;
+        color: black;
+    }
+    
+    .BaslikAll-Head-overlay h1 {
+        font-size: 25px;
+    }
+    
+    .BaslikAll-Body {
+        margin-top: 0;
+        width: 100%;
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .BaslikAll-Body-Left h3 {
+        padding-right: 35%;
+        font-size: 18px;
+    }
+
+    .BaslikAll-Body-Right-link {
+        font-size: 12px;
+        color: black; /* Link rengini beyaz yap */
+        text-decoration: none; /* Alt çizgiyi kaldır */
+        display: inline-block; /* Metinleri yan yana yerleştir */
+        white-space: nowrap; /* Metinlerin yeni satıra geçmesini engelle */
+    }
+
+    .BaslikAll-Body-Left {
+        width: 40%;
+        float: left;
+    }
+    .BaslikAll-Body-Left h3 {
+        padding-right: 0;
+    }
+    
+    .BaslikAll-Body-Right {
+        width: 60%;
+        float: right;
+    }
+    
+    .BaslikAll-Body-Right-ul {
+        list-style: none;
+        display: flex;
+        padding-left: 0;
+    }
+    
+    .BaslikAll-Body-Right-li {
+        padding-left: 5%;
+    }
+
+  }
+  
+  @media (max-width: 600px){
+    .BaslikAll {
+        margin-top: 0;
+        width: 100%;
+        height: 500px;
+    }
+    
+    .BaslikAll-Head {
+        width: 100%;
+        height: 300px;
+    }
+    
+    .BaslikAll-Head-img {
+        width: 100%;
+        height: 250px;
+        position: absolute;
+        z-index: -1;
+    }
+    
+    .BaslikAll-Head-overlay {
+        width: auto;
+        height: auto;
+        display: block;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        position: relative;
+        z-index: +1;
+        padding-top: 18%;
+        color: black;
+    }
+    
+    .BaslikAll-Head-overlay h1 {
+        font-size: 25px;
+    }
+    
+    .BaslikAll-Body {
+        margin-top: 0;
+        width: 100%;
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .BaslikAll-Body-Left h3 {
+        padding-right: 35%;
+        font-size: 18px;
+    }
+
+    .BaslikAll-Body-Right-link {
+        font-size: 12px;
+        color: black; /* Link rengini beyaz yap */
+        text-decoration: none; /* Alt çizgiyi kaldır */
+        display: inline-block; /* Metinleri yan yana yerleştir */
+        white-space: nowrap; /* Metinlerin yeni satıra geçmesini engelle */
+    }
+
+    .BaslikAll-Body-Left {
+        width: 40%;
+        float: left;
+    }
+    .BaslikAll-Body-Left h3 {
+        text-align: left;
+        font-size: 10px;
+        padding-right: 0;
+    }
+    
+    .BaslikAll-Body-Right {
+        width: 60%;
+        float: right;
+    }
+    
+    .BaslikAll-Body-Right-ul {
+        list-style: none;
+        display: flex;
+        padding-left: 0;
+    }
+    
+    .BaslikAll-Body-Right-li {
+        padding-left: 5%;
+    }
+
+  }
+
+  @media (max-width: 500px){
+    .BaslikAll {
+        margin-top: 0;
+        width: 100%;
+        height: 400px;
+    }
+    
+    .BaslikAll-Head {
+        width: 100%;
+        height: 200px;
+    }
+    
+    .BaslikAll-Head-img {
+        width: 100%;
+        height: 150px;
+        position: absolute;
+        z-index: -1;
+    }
+    
+    .BaslikAll-Head-overlay {
+        width: auto;
+        height: auto;
+        display: block;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        position: relative;
+        z-index: +1;
+        padding-top: 15%;
+        color: black;
+    }
+    
+    .BaslikAll-Head-overlay h1 {
+        font-size: 20px;
+    }
+
+    .BaslikAll-Head-overlay h4 {
+        font-size: 15px;
+    }
+    
+    .BaslikAll-Body {
+        margin-top: 0;
+        width: 100%;
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .BaslikAll-Body-Left h3 {
+        padding-right: 35%;
+        font-size: 12px;
+    }
+
+    .BaslikAll-Body-Right-link {
+        font-size: 9px;
+        color: black; /* Link rengini beyaz yap */
+        text-decoration: none; /* Alt çizgiyi kaldır */
+        display: inline-block; /* Metinleri yan yana yerleştir */
+        white-space: nowrap; /* Metinlerin yeni satıra geçmesini engelle */
+    }
+
+    .BaslikAll-Body-Left {
+        width: 40%;
+        float: left;
+    }
+    .BaslikAll-Body-Left h3 {
+        text-align: left;
+        font-size: 10px;
+        padding-right: 0;
+    }
+    
+    .BaslikAll-Body-Right {
+        width: 60%;
+        float: right;
+    }
+    
+    .BaslikAll-Body-Right-ul {
+        list-style: none;
+        display: flex;
+        padding-left: 0;
+    }
+    
+    .BaslikAll-Body-Right-li {
+        padding-left: 5%;
+    }
+
+  }
+
+  @media (max-width: 400px){
+    .BaslikAll {
+        margin-top: 0;
+        width: 100%;
+        height: 300px;
+    }
+    
+    .BaslikAll-Head {
+        width: 100%;
+        height: 200px;
+    }
+    
+    .BaslikAll-Head-img {
+        width: 100%;
+        height: 150px;
+        position: absolute;
+        z-index: -1;
+    }
+    
+    .BaslikAll-Head-overlay {
+        width: auto;
+        height: auto;
+        display: block;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        position: relative;
+        z-index: +1;
+        padding-top: 10%;
+        color: black;
+    }
+    
+    .BaslikAll-Head-overlay h1 {
+        font-size: 10px;
+    }
+
+    .BaslikAll-Head-overlay h4 {
+        font-size: 8px;
+    }
+    
+    .BaslikAll-Body {
+        margin-top: 0;
+        width: 100%;
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .BaslikAll-Body-Right-link {
+        font-size: 9px;
+        color: black; /* Link rengini beyaz yap */
+        text-decoration: none; /* Alt çizgiyi kaldır */
+        display: inline-block; /* Metinleri yan yana yerleştir */
+        white-space: nowrap; /* Metinlerin yeni satıra geçmesini engelle */
+    }
+
+    .BaslikAll-Body-Left {
+        width: 40%;
+        float: left;
+    }
+    .BaslikAll-Body-Left h3 {
+        text-align: left;
+        font-size: 10px;
+        padding-right: 0;
+    }
+    
+    .BaslikAll-Body-Right {
+        width: 60%;
+        float: right;
+    }
+    
+    .BaslikAll-Body-Right-ul {
+        list-style: none;
+        display: flex;
+        padding-left: 0;
+    }
+    
+    .BaslikAll-Body-Right-li {
+        padding-left: 5%;
+    }
+
+  }

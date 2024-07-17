@@ -24,14 +24,17 @@ export default function HotelSelectionHome() {
 
     useEffect(() => {
         fetchData();
-
-
+    
         const handleScroll = () => {
             const element = document.querySelector('.HotelSelectionHome-Container-Body-Cards');
             if (element) {
-                const elementPosition = element.getBoundingClientRect().top;
+                const rect = element.getBoundingClientRect();
                 const windowHeight = window.innerHeight;
-                if (elementPosition < windowHeight && elementPosition >= 0) {
+                const elementHeight = rect.height;
+                const threshold = elementHeight * 0.1;
+    
+                // Elementin %10'undan fazlası görünür olduğunda 'visible' sınıfını ekle
+                if (rect.top < windowHeight - threshold && rect.bottom > threshold) {
                     element.classList.add('visible');
                 } else {
                     element.classList.remove('visible');
@@ -40,12 +43,14 @@ export default function HotelSelectionHome() {
         };
     
         window.addEventListener('scroll', handleScroll);
-        handleScroll(); // Check visibility on initial load
+        handleScroll(); // Sayfa yüklendiğinde görünürlüğü kontrol et
     
         return () => {
             window.removeEventListener('scroll', handleScroll);
         };
     }, []);
+    
+    
 
     if (loading) {
         return <div>Loading...</div>;

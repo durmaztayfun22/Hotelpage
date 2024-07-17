@@ -8,8 +8,7 @@ import Ayak from "./components/Ayak";
 export default function Contact() {
     return(
         <>
-            <Head>
-            </Head>
+            <Head></Head>
             <div className="Contact-Home">
                 <Kafa />
                 <Connection />

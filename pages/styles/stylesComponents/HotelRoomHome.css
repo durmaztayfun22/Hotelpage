@@ -311,3 +311,3534 @@
     width: 70px;
     height: 40px;
 }
+
+@media (max-width: 1700px) {
+    .HotelRoomsHome {
+        margin-top: 0;
+        width: 100%;
+        height: 950px;
+    }
+    
+    .HotelRoomsHome-Left {
+        width: 50%;
+        height: 950px;
+        float: left;
+    }
+    
+    .HotelRoomsHome-Left-Content {
+        width: 100%;
+        height: 910px;
+        display: block;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .HotelRoomsHome-Left-Content-Head {
+        width: 90%;
+        height: 300px;
+        margin-left: 50px;
+    }
+    
+    .HotelRoomsHome-Left-Content-Head-img {
+        width: 100%;
+        height: 300px;
+    }
+    
+    .HotelRoomsHome-Left-Content-Head-img img {
+        width: 450px;
+        height: 250px;
+        border-radius: 5px;
+        position: relative;
+        z-index: -1;
+    }
+    
+    .HotelRoomsHome-Left-Content-Head-img span {
+        position: absolute;
+        left: 16%;
+        background-color: white;
+        border-radius: 15px;
+        margin-top: 13%;
+        padding: 5px;
+        width: 5%;
+        text-align: center;
+        z-index: 2;
+    }
+    
+    .HotelRoomsHome-Left-Content-Body {
+        width: 100%;
+        height: 600px;
+    }
+
+    .HotelRoomsHome-Left-Content-Body-Card {
+        width: 100%;
+        height: 550px;
+    }
+
+    .HotelRoomsHome-Left-Content-Body-Card-ul {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .HotelRoomsHome-Left-Content-Body-Card-li {
+        height: 100px;
+        background-color: hsl(186, 50%, 92%);
+        border-radius: 10px;
+        padding: 5px;
+        display: flex;
+        margin-bottom: 14px;
+        width: 40%;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .HotelRoomsHome-Left-Content-Body-Card-li-Div-img {
+        width: 78px;
+        height: 78px;
+        padding-right: 20px;
+        margin-left: 5px;
+    }
+    
+    .HotelRoomsHome-Left-Content-Body-Card-li-img {
+        width: 68px;
+        height: 68px;
+    }
+    
+    .HotelRoomsHome-Left-Content-Body-Card-li-Div-h1 {
+        width: 100px;
+        height: auto;
+        margin-left: 15px;
+    }
+    
+    .HotelRoomsHome-Left-Content-Body-Card-li-h1 {
+        font-size: 50px;
+        margin: 0;
+    }
+    
+    .HotelRoomsHome-Left-Content-Body-Card-li-Div {
+        width: 100%;
+        text-align: left;
+        margin-left: 15px;
+    }
+    
+    .HotelRoomsHome-Left-Content-Body-Card-li-Div-ul {
+        list-style: none;
+        display: grid;
+        padding-left: 0;
+        margin-left: 15px;
+    }
+    
+    .HotelRoomsHome-Left-Content-Body-Card-li-Div-ul-li-1 {
+        font-size: 18px;
+    }
+    
+    .HotelRoomsHome-Left-Content-Body-Card-li-Div-ul-li-2 {
+        font-size: 9px;
+    }
+    
+    .HotelRoom-Left-Card-Subject-Rate {
+        width: 160px;
+        height: 40px;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-left: 25%;
+    }
+    
+    .HotelRoom-Left-Card-Subject-Rate-Div-img {
+        width: 38px;
+        height: 38px;
+    }
+    
+    .HotelRoom-Left-Card-Subject-Rate-img {
+        width: 38px;
+        height: 38px;
+    }
+    
+    .HotelRoom-Left-Card-Subject-Rate-Div-span {
+        margin-left: 10px;
+        width: 68px;
+        height: 38px;
+    }
+    
+    .HotelRoom-Left-Card-Subject-Rate-span {
+        width: 68px;
+        height: 38px;
+    }
+
+    .HotelRoomsHome-Right {
+        width: 50%;
+        height: 950px;
+        float: right;
+    }
+    
+    .HotelRoomsHome-Right-Content {
+        width: 100%;
+        height: 910px;
+        display: block;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .HotelRoomsHome-Right-Content-Head {
+        width: 90%;
+        height: 300px;
+        justify-content: center;
+        align-items: center;
+        margin-left: 50px;
+    }
+    
+    .HotelRoomsHome-Right-Content-Head-img {
+        width: 100%;
+        height: 300px;
+    
+    }
+    
+    .HotelRoomsHome-Right-Content-Head-img img {
+        width: 450px;
+        height: 250px;
+        border-radius: 5px;
+        position: relative;
+        z-index: -1;
+    }
+    
+    .HotelRoomsHome-Right-Content-Head-img span {
+        position: absolute;
+        margin-top: 13%;
+        right: 28%;
+        background-color: white;
+        border-radius: 15px;
+        padding: 5px;
+        width: 5%;
+        text-align: center;
+        z-index: 2;
+    }
+
+    .HotelRoomsHome-Right-Content-Body {
+        width: 100%;
+        height: 600px;
+    }
+    
+    .HotelRoomsHome-Right-Content-Body-Card {
+        width: 100%;
+        height: 550px;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .HotelRoomsHome-Right-Content-Body-Card-ul {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .HotelRoomsHome-Right-Content-Body-Card-li {
+        height: 100px;
+        background-color: hsl(186, 50%, 92%);
+        border-radius: 10px;
+        padding: 5px;
+        display: flex;
+        margin-bottom: 14px;
+        width: 40%;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .HotelRoomsHome-Right-Content-Body-Card-li-Div-img {
+        width: 78px;
+        height: 78px;
+        padding-right: 20px;
+        margin-left: 5px;
+    }
+    
+    .HotelRoomsHome-Right-Content-Body-Card-li-img {
+        width: 68px;
+        height: 68px;
+    }
+    
+    .HotelRoomsHome-Right-Content-Body-Card-li-Div-h1 {
+        width: 100px;
+        height: auto;
+        margin-left: 15px;
+    }
+    
+    .HotelRoomsHome-Right-Content-Body-Card-li-h1 {
+        font-size: 50px;
+        margin: 0;
+    }
+    
+    .HotelRoomsHome-Right-Content-Body-Card-li-Div {
+        width: 100%;
+        text-align: left;
+        margin-left: 15px;
+    }
+    
+    .HotelRoomsHome-Right-Content-Body-Card-li-Div-ul {
+        list-style: none;
+        display: grid;
+        padding-left: 0;
+    }
+    
+    .HotelRoomsHome-Right-Content-Body-Card-li-Div-ul-li-1 {
+        font-size: 18px;
+    }
+    
+    .HotelRoomsHome-Right-Content-Body-Card-li-Div-ul-li-2 {
+        font-size: 9px
+    }
+    
+    .HotelRoom-Right-Card-Subject-Rate {
+        width: 160px;
+        height: 40px;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-left: 25%;
+    }
+    
+    .HotelRoom-Right-Card-Subject-Rate-Div-img {
+        width: 38px;
+        height: 38px;
+    }
+    
+    .HotelRoom-Right-Card-Subject-Rate-img {
+        width: 38px;
+        height: 38px;
+    }
+    
+    .HotelRoom-Right-Card-Subject-Rate-Div-span {
+        margin-left: 10px;
+        width: 68px;
+        height: 38px;
+    }
+    
+    .HotelRoom-Right-Card-Subject-Rate-span {
+        width: 68px;
+        height: 38px;
+    }
+
+}
+
+@media (max-width: 1600px) {
+    .HotelRoomsHome {
+        margin-top: 0;
+        width: 100%;
+        height: 930px;
+    }
+    
+    .HotelRoomsHome-Left {
+        width: 50%;
+        height: 930px;
+        float: left;
+    }
+    
+    .HotelRoomsHome-Left-Content {
+        width: 100%;
+        height: 890px;
+        display: block;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .HotelRoomsHome-Left-Content-Head {
+        width: 90%;
+        height: 280px;
+        margin-left: 50px;
+    }
+    
+    .HotelRoomsHome-Left-Content-Head-img {
+        width: 100%;
+        height: 280px;
+    }
+    
+    .HotelRoomsHome-Left-Content-Head-img img {
+        width: 450px;
+        height: 230px;
+        border-radius: 5px;
+        position: relative;
+        z-index: -1;
+    }
+    
+    .HotelRoomsHome-Left-Content-Head-img span {
+        position: absolute;
+        left: 16%;
+        background-color: white;
+        border-radius: 15px;
+        margin-top: 13%;
+        padding: 5px;
+        width: 5%;
+        text-align: center;
+        z-index: 2;
+    }
+    
+    .HotelRoomsHome-Left-Content-Body {
+        width: 100%;
+        height: 580px;
+    }
+
+    .HotelRoomsHome-Left-Content-Body-Card {
+        width: 100%;
+        height: 530px;
+    }
+
+    .HotelRoomsHome-Left-Content-Body-Card-ul {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .HotelRoomsHome-Left-Content-Body-Card-li {
+        height: 100px;
+        background-color: hsl(186, 50%, 92%);
+        border-radius: 10px;
+        padding: 5px;
+        display: flex;
+        margin-bottom: 13px;
+        width: 40%;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .HotelRoomsHome-Left-Content-Body-Card-li-Div-img {
+        width: 76px;
+        height: 76px;
+        padding-right: 20px;
+        margin-left: 5px;
+    }
+    
+    .HotelRoomsHome-Left-Content-Body-Card-li-img {
+        width: 66px;
+        height: 66px;
+    }
+    
+    .HotelRoomsHome-Left-Content-Body-Card-li-Div-h1 {
+        width: 100px;
+        height: auto;
+        margin-left: 15px;
+    }
+    
+    .HotelRoomsHome-Left-Content-Body-Card-li-h1 {
+        font-size: 45px;
+        margin: 0;
+    }
+    
+    .HotelRoomsHome-Left-Content-Body-Card-li-Div {
+        width: 100%;
+        text-align: left;
+        margin-left: 15px;
+    }
+    
+    .HotelRoomsHome-Left-Content-Body-Card-li-Div-ul {
+        list-style: none;
+        display: grid;
+        padding-left: 0;
+        margin-left: 15px;
+    }
+    
+    .HotelRoomsHome-Left-Content-Body-Card-li-Div-ul-li-1 {
+        font-size: 17px;
+    }
+    
+    .HotelRoomsHome-Left-Content-Body-Card-li-Div-ul-li-2 {
+        font-size: 9px;
+    }
+    
+    .HotelRoom-Left-Card-Subject-Rate {
+        width: 150px;
+        height: 39px;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-left: 25%;
+    }
+    
+    .HotelRoom-Left-Card-Subject-Rate-Div-img {
+        width: 36px;
+        height: 36px;
+    }
+    
+    .HotelRoom-Left-Card-Subject-Rate-img {
+        width: 36px;
+        height: 36px;
+    }
+    
+    .HotelRoom-Left-Card-Subject-Rate-Div-span {
+        margin-left: 10px;
+        width: 66px;
+        height: 36px;
+    }
+    
+    .HotelRoom-Left-Card-Subject-Rate-span {
+        width: 66px;
+        height: 36px;
+    }
+
+    .HotelRoomsHome-Right {
+        width: 50%;
+        height: 930px;
+        float: right;
+    }
+    
+    .HotelRoomsHome-Right-Content {
+        width: 100%;
+        height: 890px;
+        display: block;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .HotelRoomsHome-Right-Content-Head {
+        width: 90%;
+        height: 280px;
+        justify-content: center;
+        align-items: center;
+        margin-left: 50px;
+    }
+    
+    .HotelRoomsHome-Right-Content-Head-img {
+        width: 100%;
+        height: 280px;
+    
+    }
+    
+    .HotelRoomsHome-Right-Content-Head-img img {
+        width: 450px;
+        height: 230px;
+        border-radius: 5px;
+        position: relative;
+        z-index: -1;
+    }
+    
+    .HotelRoomsHome-Right-Content-Head-img span {
+        position: absolute;
+        margin-top: 13%;
+        right: 28%;
+        background-color: white;
+        border-radius: 15px;
+        padding: 5px;
+        width: 5%;
+        text-align: center;
+        z-index: 2;
+    }
+
+    .HotelRoomsHome-Right-Content-Body {
+        width: 100%;
+        height: 580px;
+    }
+    
+    .HotelRoomsHome-Right-Content-Body-Card {
+        width: 100%;
+        height: 530px;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .HotelRoomsHome-Right-Content-Body-Card-ul {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .HotelRoomsHome-Right-Content-Body-Card-li {
+        height: 100px;
+        background-color: hsl(186, 50%, 92%);
+        border-radius: 10px;
+        padding: 5px;
+        display: flex;
+        margin-bottom: 13px;
+        width: 40%;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .HotelRoomsHome-Right-Content-Body-Card-li-Div-img {
+        width: 76px;
+        height: 76px;
+        padding-right: 20px;
+        margin-left: 5px;
+    }
+    
+    .HotelRoomsHome-Right-Content-Body-Card-li-img {
+        width: 66px;
+        height: 66px;
+    }
+    
+    .HotelRoomsHome-Right-Content-Body-Card-li-Div-h1 {
+        width: 100px;
+        height: auto;
+        margin-left: 15px;
+    }
+    
+    .HotelRoomsHome-Right-Content-Body-Card-li-h1 {
+        font-size: 45px;
+        margin: 0;
+    }
+    
+    .HotelRoomsHome-Right-Content-Body-Card-li-Div {
+        width: 100%;
+        text-align: left;
+        margin-left: 15px;
+    }
+    
+    .HotelRoomsHome-Right-Content-Body-Card-li-Div-ul {
+        list-style: none;
+        display: grid;
+        padding-left: 0;
+    }
+    
+    .HotelRoomsHome-Right-Content-Body-Card-li-Div-ul-li-1 {
+        font-size: 17px;
+    }
+    
+    .HotelRoomsHome-Right-Content-Body-Card-li-Div-ul-li-2 {
+        font-size: 9px
+    }
+    
+    .HotelRoom-Right-Card-Subject-Rate {
+        width: 150px;
+        height: 39px;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-left: 25%;
+    }
+    
+    .HotelRoom-Right-Card-Subject-Rate-Div-img {
+        width: 36px;
+        height: 36px;
+    }
+    
+    .HotelRoom-Right-Card-Subject-Rate-img {
+        width: 36px;
+        height: 36px;
+    }
+    
+    .HotelRoom-Right-Card-Subject-Rate-Div-span {
+        margin-left: 10px;
+        width: 66px;
+        height: 36px;
+    }
+    
+    .HotelRoom-Right-Card-Subject-Rate-span {
+        width: 66px;
+        height: 36px;
+    }
+
+}
+
+@media (max-width: 1500px) {
+    .HotelRoomsHome {
+        margin-top: 0;
+        width: 100%;
+        height: 910px;
+    }
+    
+    .HotelRoomsHome-Left {
+        width: 50%;
+        height: 910px;
+        float: left;
+    }
+    
+    .HotelRoomsHome-Left-Content {
+        width: 100%;
+        height: 890px;
+        display: block;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .HotelRoomsHome-Left-Content-Head {
+        width: 90%;
+        height: 280px;
+        margin-left: 50px;
+    }
+    
+    .HotelRoomsHome-Left-Content-Head-img {
+        width: 100%;
+        height: 280px;
+    }
+    
+    .HotelRoomsHome-Left-Content-Head-img img {
+        width: 450px;
+        height: 230px;
+        border-radius: 5px;
+        position: relative;
+        z-index: -1;
+    }
+    
+    .HotelRoomsHome-Left-Content-Head-img span {
+        position: absolute;
+        left: 16%;
+        background-color: white;
+        border-radius: 15px;
+        margin-top: 13%;
+        padding: 5px;
+        width: 5%;
+        text-align: center;
+        z-index: 2;
+    }
+    
+    .HotelRoomsHome-Left-Content-Body {
+        width: 100%;
+        height: 570px;
+    }
+
+    .HotelRoomsHome-Left-Content-Body-Card {
+        width: 100%;
+        height: 530px;
+    }
+
+    .HotelRoomsHome-Left-Content-Body-Card-ul {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .HotelRoomsHome-Left-Content-Body-Card-li {
+        height: 100px;
+        background-color: hsl(186, 50%, 92%);
+        border-radius: 10px;
+        padding: 5px;
+        display: flex;
+        margin-bottom: 14px;
+        width: 40%;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .HotelRoomsHome-Left-Content-Body-Card-li-Div-img {
+        width: 75px;
+        height: 75px;
+        padding-right: 20px;
+        margin-left: 5px;
+    }
+    
+    .HotelRoomsHome-Left-Content-Body-Card-li-img {
+        width: 65px;
+        height: 65px;
+    }
+    
+    .HotelRoomsHome-Left-Content-Body-Card-li-Div-h1 {
+        width: 100px;
+        height: auto;
+        margin-left: 15px;
+    }
+    
+    .HotelRoomsHome-Left-Content-Body-Card-li-h1 {
+        font-size: 47px;
+        margin: 0;
+    }
+    
+    .HotelRoomsHome-Left-Content-Body-Card-li-Div {
+        width: 100%;
+        text-align: left;
+        margin-left: 15px;
+    }
+    
+    .HotelRoomsHome-Left-Content-Body-Card-li-Div-ul {
+        list-style: none;
+        display: grid;
+        padding-left: 0;
+        margin-left: 15px;
+    }
+    
+    .HotelRoomsHome-Left-Content-Body-Card-li-Div-ul-li-1 {
+        font-size: 17px;
+    }
+    
+    .HotelRoomsHome-Left-Content-Body-Card-li-Div-ul-li-2 {
+        font-size: 9px;
+    }
+    
+    .HotelRoom-Left-Card-Subject-Rate {
+        width: 150px;
+        height: 38px;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-left: 25%;
+    }
+    
+    .HotelRoom-Left-Card-Subject-Rate-Div-img {
+        width: 37px;
+        height: 37px;
+    }
+    
+    .HotelRoom-Left-Card-Subject-Rate-img {
+        width: 37px;
+        height: 37px;
+    }
+    
+    .HotelRoom-Left-Card-Subject-Rate-Div-span {
+        margin-left: 10px;
+        width: 67px;
+        height: 37px;
+    }
+    
+    .HotelRoom-Left-Card-Subject-Rate-span {
+        width: 67px;
+        height: 37px;
+    }
+
+    .HotelRoomsHome-Right {
+        width: 50%;
+        height: 910px;
+        float: right;
+    }
+    
+    .HotelRoomsHome-Right-Content {
+        width: 100%;
+        height: 890px;
+        display: block;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .HotelRoomsHome-Right-Content-Head {
+        width: 90%;
+        height: 280px;
+        justify-content: center;
+        align-items: center;
+        margin-left: 50px;
+    }
+    
+    .HotelRoomsHome-Right-Content-Head-img {
+        width: 100%;
+        height: 280px;
+    }
+    
+    .HotelRoomsHome-Right-Content-Head-img img {
+        width: 450px;
+        height: 230px;
+        border-radius: 5px;
+        position: relative;
+        z-index: -1;
+    }
+    
+    .HotelRoomsHome-Right-Content-Head-img span {
+        position: absolute;
+        margin-top: 13%;
+        right: 28%;
+        background-color: white;
+        border-radius: 15px;
+        padding: 5px;
+        width: 5%;
+        text-align: center;
+        z-index: 2;
+    }
+
+    .HotelRoomsHome-Right-Content-Body {
+        width: 100%;
+        height: 570px;
+    }
+    
+    .HotelRoomsHome-Right-Content-Body-Card {
+        width: 100%;
+        height: 530px;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .HotelRoomsHome-Right-Content-Body-Card-ul {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .HotelRoomsHome-Right-Content-Body-Card-li {
+        height: 100px;
+        background-color: hsl(186, 50%, 92%);
+        border-radius: 10px;
+        padding: 5px;
+        display: flex;
+        margin-bottom: 14px;
+        width: 40%;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .HotelRoomsHome-Right-Content-Body-Card-li-Div-img {
+        width: 75px;
+        height: 75px;
+        padding-right: 20px;
+        margin-left: 5px;
+    }
+    
+    .HotelRoomsHome-Right-Content-Body-Card-li-img {
+        width: 65px;
+        height: 65px;
+    }
+    
+    .HotelRoomsHome-Right-Content-Body-Card-li-Div-h1 {
+        width: 100px;
+        height: auto;
+        margin-left: 15px;
+    }
+    
+    .HotelRoomsHome-Right-Content-Body-Card-li-h1 {
+        font-size: 47px;
+        margin: 0;
+    }
+    
+    .HotelRoomsHome-Right-Content-Body-Card-li-Div {
+        width: 100%;
+        text-align: left;
+        margin-left: 15px;
+    }
+    
+    .HotelRoomsHome-Right-Content-Body-Card-li-Div-ul {
+        list-style: none;
+        display: grid;
+        padding-left: 0;
+    }
+    
+    .HotelRoomsHome-Right-Content-Body-Card-li-Div-ul-li-1 {
+        font-size: 17px;
+    }
+    
+    .HotelRoomsHome-Right-Content-Body-Card-li-Div-ul-li-2 {
+        font-size: 9px
+    }
+    
+    .HotelRoom-Right-Card-Subject-Rate {
+        width: 150px;
+        height: 38px;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-left: 25%;
+    }
+    
+    .HotelRoom-Right-Card-Subject-Rate-Div-img {
+        width: 37px;
+        height: 37px;
+    }
+    
+    .HotelRoom-Right-Card-Subject-Rate-img {
+        width: 37px;
+        height: 37px;
+    }
+    
+    .HotelRoom-Right-Card-Subject-Rate-Div-span {
+        margin-left: 10px;
+        width: 67px;
+        height: 37px;
+    }
+    
+    .HotelRoom-Right-Card-Subject-Rate-span {
+        width: 67px;
+        height: 37px;
+    }
+
+}
+
+@media (max-width: 1400px) {
+    .HotelRoomsHome {
+        margin-top: 0;
+        width: 100%;
+        height: 900px;
+    }
+    
+    .HotelRoomsHome-Left {
+        width: 50%;
+        height: 900px;
+        float: left;
+    }
+    
+    .HotelRoomsHome-Left-Content {
+        width: 100%;
+        height: 880px;
+        display: block;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .HotelRoomsHome-Left-Content-Head {
+        width: 90%;
+        height: 270px;
+        margin-left: 50px;
+    }
+    
+    .HotelRoomsHome-Left-Content-Head-img {
+        width: 100%;
+        height: 270px;
+    }
+    
+    .HotelRoomsHome-Left-Content-Head-img img {
+        width: 450px;
+        height: 220px;
+        border-radius: 5px;
+        position: relative;
+        z-index: -1;
+    }
+    
+    .HotelRoomsHome-Left-Content-Head-img span {
+        position: absolute;
+        left: 16%;
+        background-color: white;
+        border-radius: 15px;
+        margin-top: 13%;
+        padding: 5px;
+        width: 5%;
+        text-align: center;
+        z-index: 2;
+    }
+    
+    .HotelRoomsHome-Left-Content-Body {
+        width: 100%;
+        height: 560px;
+    }
+
+    .HotelRoomsHome-Left-Content-Body-Card {
+        width: 100%;
+        height: 520px;
+    }
+
+    .HotelRoomsHome-Left-Content-Body-Card-ul {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .HotelRoomsHome-Left-Content-Body-Card-li {
+        height: 100px;
+        background-color: hsl(186, 50%, 92%);
+        border-radius: 10px;
+        padding: 5px;
+        display: flex;
+        margin-bottom: 14px;
+        width: 40%;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .HotelRoomsHome-Left-Content-Body-Card-li-Div-img {
+        width: 74px;
+        height: 74px;
+        padding-right: 20px;
+        margin-left: 5px;
+    }
+    
+    .HotelRoomsHome-Left-Content-Body-Card-li-img {
+        width: 64px;
+        height: 64px;
+    }
+    
+    .HotelRoomsHome-Left-Content-Body-Card-li-Div-h1 {
+        width: 100px;
+        height: auto;
+        margin-left: 15px;
+    }
+    
+    .HotelRoomsHome-Left-Content-Body-Card-li-h1 {
+        font-size: 46px;
+        margin: 0;
+    }
+    
+    .HotelRoomsHome-Left-Content-Body-Card-li-Div {
+        width: 100%;
+        text-align: left;
+        margin-left: 15px;
+    }
+    
+    .HotelRoomsHome-Left-Content-Body-Card-li-Div-ul {
+        list-style: none;
+        display: grid;
+        padding-left: 0;
+        margin-left: 15px;
+    }
+    
+    .HotelRoomsHome-Left-Content-Body-Card-li-Div-ul-li-1 {
+        font-size: 16px;
+    }
+    
+    .HotelRoomsHome-Left-Content-Body-Card-li-Div-ul-li-2 {
+        font-size: 9px;
+    }
+    
+    .HotelRoom-Left-Card-Subject-Rate {
+        width: 140px;
+        height: 37px;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-left: 25%;
+    }
+    
+    .HotelRoom-Left-Card-Subject-Rate-Div-img {
+        width: 36px;
+        height: 36px;
+    }
+    
+    .HotelRoom-Left-Card-Subject-Rate-img {
+        width: 36px;
+        height: 36px;
+    }
+    
+    .HotelRoom-Left-Card-Subject-Rate-Div-span {
+        margin-left: 10px;
+        width: 66px;
+        height: 36px;
+    }
+    
+    .HotelRoom-Left-Card-Subject-Rate-span {
+        width: 66px;
+        height: 36px;
+    }
+
+    .HotelRoomsHome-Right {
+        width: 50%;
+        height: 900px;
+        float: right;
+    }
+    
+    .HotelRoomsHome-Right-Content {
+        width: 100%;
+        height: 880px;
+        display: block;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .HotelRoomsHome-Right-Content-Head {
+        width: 90%;
+        height: 270px;
+        justify-content: center;
+        align-items: center;
+        margin-left: 50px;
+    }
+    
+    .HotelRoomsHome-Right-Content-Head-img {
+        width: 100%;
+        height: 270px;
+    }
+    
+    .HotelRoomsHome-Right-Content-Head-img img {
+        width: 450px;
+        height: 220px;
+        border-radius: 5px;
+        position: relative;
+        z-index: -1;
+    }
+    
+    .HotelRoomsHome-Right-Content-Head-img span {
+        position: absolute;
+        margin-top: 13%;
+        right: 28%;
+        background-color: white;
+        border-radius: 15px;
+        padding: 5px;
+        width: 5%;
+        text-align: center;
+        z-index: 2;
+    }
+
+    .HotelRoomsHome-Right-Content-Body {
+        width: 100%;
+        height: 560px;
+    }
+    
+    .HotelRoomsHome-Right-Content-Body-Card {
+        width: 100%;
+        height: 520px;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .HotelRoomsHome-Right-Content-Body-Card-ul {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .HotelRoomsHome-Right-Content-Body-Card-li {
+        height: 100px;
+        background-color: hsl(186, 50%, 92%);
+        border-radius: 10px;
+        padding: 5px;
+        display: flex;
+        margin-bottom: 14px;
+        width: 40%;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .HotelRoomsHome-Right-Content-Body-Card-li-Div-img {
+        width: 74px;
+        height: 74px;
+        padding-right: 20px;
+        margin-left: 5px;
+    }
+    
+    .HotelRoomsHome-Right-Content-Body-Card-li-img {
+        width: 64px;
+        height: 64px;
+    }
+    
+    .HotelRoomsHome-Right-Content-Body-Card-li-Div-h1 {
+        width: 100px;
+        height: auto;
+        margin-left: 15px;
+    }
+    
+    .HotelRoomsHome-Right-Content-Body-Card-li-h1 {
+        font-size: 46px;
+        margin: 0;
+    }
+    
+    .HotelRoomsHome-Right-Content-Body-Card-li-Div {
+        width: 100%;
+        text-align: left;
+        margin-left: 15px;
+    }
+    
+    .HotelRoomsHome-Right-Content-Body-Card-li-Div-ul {
+        list-style: none;
+        display: grid;
+        padding-left: 0;
+    }
+    
+    .HotelRoomsHome-Right-Content-Body-Card-li-Div-ul-li-1 {
+        font-size: 16px;
+    }
+    
+    .HotelRoomsHome-Right-Content-Body-Card-li-Div-ul-li-2 {
+        font-size: 9px
+    }
+    
+    .HotelRoom-Right-Card-Subject-Rate {
+        width: 140px;
+        height: 37px;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-left: 25%;
+    }
+    
+    .HotelRoom-Right-Card-Subject-Rate-Div-img {
+        width: 36px;
+        height: 36px;
+    }
+    
+    .HotelRoom-Right-Card-Subject-Rate-img {
+        width: 36px;
+        height: 36px;
+    }
+    
+    .HotelRoom-Right-Card-Subject-Rate-Div-span {
+        margin-left: 10px;
+        width: 66px;
+        height: 36px;
+    }
+    
+    .HotelRoom-Right-Card-Subject-Rate-span {
+        width: 66px;
+        height: 36px;
+    }
+
+}
+
+@media (max-width: 1300px) {
+    .HotelRoomsHome {
+        margin-top: 0;
+        width: 100%;
+        height: 890px;
+    }
+    
+    .HotelRoomsHome-Left {
+        width: 50%;
+        height: 890px;
+        float: left;
+    }
+    
+    .HotelRoomsHome-Left-Content {
+        width: 100%;
+        height: 870px;
+        display: block;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .HotelRoomsHome-Left-Content-Head {
+        width: 90%;
+        height: 260px;
+        margin-left: 50px;
+    }
+    
+    .HotelRoomsHome-Left-Content-Head-img {
+        width: 100%;
+        height: 260px;
+    }
+    
+    .HotelRoomsHome-Left-Content-Head-img img {
+        width: 450px;
+        height: 210px;
+        border-radius: 5px;
+        position: relative;
+        z-index: -1;
+    }
+    
+    .HotelRoomsHome-Left-Content-Head-img span {
+        position: absolute;
+        left: 16%;
+        background-color: white;
+        border-radius: 15px;
+        margin-top: 13%;
+        padding: 5px;
+        width: 5%;
+        text-align: center;
+        z-index: 2;
+    }
+    
+    .HotelRoomsHome-Left-Content-Body {
+        width: 100%;
+        height: 550px;
+    }
+
+    .HotelRoomsHome-Left-Content-Body-Card {
+        width: 100%;
+        height: 540px;
+    }
+
+    .HotelRoomsHome-Left-Content-Body-Card-ul {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .HotelRoomsHome-Left-Content-Body-Card-li {
+        height: 100px;
+        background-color: hsl(186, 50%, 92%);
+        border-radius: 10px;
+        padding: 5px;
+        display: flex;
+        margin-bottom: 14px;
+        width: 40%;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .HotelRoomsHome-Left-Content-Body-Card-li-Div-img {
+        width: 72px;
+        height: 72px;
+        padding-right: 20px;
+        margin-left: 5px;
+    }
+    
+    .HotelRoomsHome-Left-Content-Body-Card-li-img {
+        width: 62px;
+        height: 62px;
+    }
+    
+    .HotelRoomsHome-Left-Content-Body-Card-li-Div-h1 {
+        width: 95px;
+        height: auto;
+        margin-left: 15px;
+    }
+    
+    .HotelRoomsHome-Left-Content-Body-Card-li-h1 {
+        font-size: 43px;
+        margin: 0;
+    }
+    
+    .HotelRoomsHome-Left-Content-Body-Card-li-Div {
+        width: 100%;
+        text-align: left;
+        margin-left: 15px;
+    }
+    
+    .HotelRoomsHome-Left-Content-Body-Card-li-Div-ul {
+        list-style: none;
+        display: grid;
+        padding-left: 0;
+        margin-left: 15px;
+    }
+    
+    .HotelRoomsHome-Left-Content-Body-Card-li-Div-ul-li-1 {
+        font-size: 15px;
+    }
+    
+    .HotelRoomsHome-Left-Content-Body-Card-li-Div-ul-li-2 {
+        font-size: 8px;
+    }
+    
+    .HotelRoom-Left-Card-Subject-Rate {
+        width: 130px;
+        height: 36px;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-left: 25%;
+    }
+    
+    .HotelRoom-Left-Card-Subject-Rate-Div-img {
+        width: 34px;
+        height: 34px;
+    }
+    
+    .HotelRoom-Left-Card-Subject-Rate-img {
+        width: 34px;
+        height: 34px;
+    }
+    
+    .HotelRoom-Left-Card-Subject-Rate-Div-span {
+        margin-left: 10px;
+        width: 64px;
+        height: 34px;
+    }
+    
+    .HotelRoom-Left-Card-Subject-Rate-span {
+        width: 64px;
+        height: 34px;
+    }
+
+    .HotelRoomsHome-Right {
+        width: 50%;
+        height: 890px;
+        float: right;
+    }
+    
+    .HotelRoomsHome-Right-Content {
+        width: 100%;
+        height: 870px;
+        display: block;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .HotelRoomsHome-Right-Content-Head {
+        width: 90%;
+        height: 260px;
+        justify-content: center;
+        align-items: center;
+        margin-left: 50px;
+    }
+    
+    .HotelRoomsHome-Right-Content-Head-img {
+        width: 100%;
+        height: 260px;
+    }
+    
+    .HotelRoomsHome-Right-Content-Head-img img {
+        width: 450px;
+        height: 210px;
+        border-radius: 5px;
+        position: relative;
+        z-index: -1;
+    }
+    
+    .HotelRoomsHome-Right-Content-Head-img span {
+        position: absolute;
+        margin-top: 13%;
+        right: 28%;
+        background-color: white;
+        border-radius: 15px;
+        padding: 5px;
+        width: 5%;
+        text-align: center;
+        z-index: 2;
+    }
+
+    .HotelRoomsHome-Right-Content-Body {
+        width: 100%;
+        height: 550px;
+    }
+    
+    .HotelRoomsHome-Right-Content-Body-Card {
+        width: 100%;
+        height: 540px;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .HotelRoomsHome-Right-Content-Body-Card-ul {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .HotelRoomsHome-Right-Content-Body-Card-li {
+        height: 100px;
+        background-color: hsl(186, 50%, 92%);
+        border-radius: 10px;
+        padding: 5px;
+        display: flex;
+        margin-bottom: 14px;
+        width: 40%;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .HotelRoomsHome-Right-Content-Body-Card-li-Div-img {
+        width: 72px;
+        height: 72px;
+        padding-right: 20px;
+        margin-left: 5px;
+    }
+    
+    .HotelRoomsHome-Right-Content-Body-Card-li-img {
+        width: 62px;
+        height: 62px;
+    }
+    
+    .HotelRoomsHome-Right-Content-Body-Card-li-Div-h1 {
+        width: 95px;
+        height: auto;
+        margin-left: 15px;
+    }
+    
+    .HotelRoomsHome-Right-Content-Body-Card-li-h1 {
+        font-size: 43px;
+        margin: 0;
+    }
+    
+    .HotelRoomsHome-Right-Content-Body-Card-li-Div {
+        width: 100%;
+        text-align: left;
+        margin-left: 15px;
+    }
+    
+    .HotelRoomsHome-Right-Content-Body-Card-li-Div-ul {
+        list-style: none;
+        display: grid;
+        padding-left: 0;
+    }
+    
+    .HotelRoomsHome-Right-Content-Body-Card-li-Div-ul-li-1 {
+        font-size: 15px;
+    }
+    
+    .HotelRoomsHome-Right-Content-Body-Card-li-Div-ul-li-2 {
+        font-size: 8px
+    }
+    
+    .HotelRoom-Right-Card-Subject-Rate {
+        width: 160px;
+        height: 40px;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-left: 25%;
+    }
+    
+    .HotelRoom-Right-Card-Subject-Rate-Div-img {
+        width: 34px;
+        height: 34px;
+    }
+    
+    .HotelRoom-Right-Card-Subject-Rate-img {
+        width: 34px;
+        height: 34px;
+    }
+    
+    .HotelRoom-Right-Card-Subject-Rate-Div-span {
+        margin-left: 10px;
+        width: 64px;
+        height: 34px;
+    }
+    
+    .HotelRoom-Right-Card-Subject-Rate-span {
+        width: 64px;
+        height: 34px;
+    }
+
+}
+
+@media (max-width: 1200px) {
+    .HotelRoomsHome {
+        margin-top: 0;
+        width: 100%;
+        height: 880px;
+    }
+    
+    .HotelRoomsHome-Left {
+        width: 50%;
+        height: 880px;
+        float: left;
+    }
+    
+    .HotelRoomsHome-Left-Content {
+        width: 100%;
+        height: 850px;
+        display: block;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .HotelRoomsHome-Left-Content-Head {
+        width: 90%;
+        height: 250px;
+        margin-left: 50px;
+    }
+    
+    .HotelRoomsHome-Left-Content-Head-img {
+        width: 100%;
+        height: 250px;
+    }
+    
+    .HotelRoomsHome-Left-Content-Head-img img {
+        width: 450px;
+        height: 200px;
+        border-radius: 5px;
+        position: relative;
+        z-index: -1;
+    }
+    
+    .HotelRoomsHome-Left-Content-Head-img span {
+        position: absolute;
+        left: 16%;
+        background-color: white;
+        border-radius: 15px;
+        margin-top: 13%;
+        padding: 5px;
+        width: 5%;
+        text-align: center;
+        z-index: 2;
+    }
+    
+    .HotelRoomsHome-Left-Content-Body {
+        width: 100%;
+        height: 540px;
+    }
+
+    .HotelRoomsHome-Left-Content-Body-Card {
+        width: 100%;
+        height: 510px;
+    }
+
+    .HotelRoomsHome-Left-Content-Body-Card-ul {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .HotelRoomsHome-Left-Content-Body-Card-li {
+        height: 100px;
+        background-color: hsl(186, 50%, 92%);
+        border-radius: 10px;
+        padding: 5px;
+        display: flex;
+        margin-bottom: 13px;
+        width: 40%;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .HotelRoomsHome-Left-Content-Body-Card-li-Div-img {
+        width: 70px;
+        height: 70px;
+        padding-right: 20px;
+        margin-left: 5px;
+    }
+    
+    .HotelRoomsHome-Left-Content-Body-Card-li-img {
+        width: 60px;
+        height: 60px;
+    }
+    
+    .HotelRoomsHome-Left-Content-Body-Card-li-Div-h1 {
+        width: 95px;
+        height: auto;
+        margin-left: 15px;
+    }
+    
+    .HotelRoomsHome-Left-Content-Body-Card-li-h1 {
+        font-size: 41px;
+        margin: 0;
+    }
+    
+    .HotelRoomsHome-Left-Content-Body-Card-li-Div {
+        width: 100%;
+        text-align: left;
+        margin-left: 15px;
+    }
+    
+    .HotelRoomsHome-Left-Content-Body-Card-li-Div-ul {
+        list-style: none;
+        display: grid;
+        padding-left: 0;
+        margin-left: 15px;
+    }
+    
+    .HotelRoomsHome-Left-Content-Body-Card-li-Div-ul-li-1 {
+        font-size: 15px;
+    }
+    
+    .HotelRoomsHome-Left-Content-Body-Card-li-Div-ul-li-2 {
+        font-size: 8px;
+    }
+    
+    .HotelRoom-Left-Card-Subject-Rate {
+        width: 160px;
+        height: 40px;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-left: 25%;
+    }
+    
+    .HotelRoom-Left-Card-Subject-Rate-Div-img {
+        width: 32px;
+        height: 32px;
+    }
+    
+    .HotelRoom-Left-Card-Subject-Rate-img {
+        width: 32px;
+        height: 32px;
+    }
+    
+    .HotelRoom-Left-Card-Subject-Rate-Div-span {
+        margin-left: 10px;
+        width: 62px;
+        height: 32px;
+    }
+    
+    .HotelRoom-Left-Card-Subject-Rate-span {
+        width: 62px;
+        height: 32px;
+    }
+
+    .HotelRoomsHome-Right {
+        width: 50%;
+        height: 880px;
+        float: right;
+    }
+    
+    .HotelRoomsHome-Right-Content {
+        width: 100%;
+        height: 850px;
+        display: block;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .HotelRoomsHome-Right-Content-Head {
+        width: 90%;
+        height: 250px;
+        justify-content: center;
+        align-items: center;
+        margin-left: 50px;
+    }
+    
+    .HotelRoomsHome-Right-Content-Head-img {
+        width: 100%;
+        height: 250px;
+    
+    }
+    
+    .HotelRoomsHome-Right-Content-Head-img img {
+        width: 450px;
+        height: 200px;
+        border-radius: 5px;
+        position: relative;
+        z-index: -1;
+    }
+    
+    .HotelRoomsHome-Right-Content-Head-img span {
+        position: absolute;
+        margin-top: 13%;
+        right: 28%;
+        background-color: white;
+        border-radius: 15px;
+        padding: 5px;
+        width: 5%;
+        text-align: center;
+        z-index: 2;
+    }
+
+    .HotelRoomsHome-Right-Content-Body {
+        width: 100%;
+        height: 540px;
+    }
+    
+    .HotelRoomsHome-Right-Content-Body-Card {
+        width: 100%;
+        height: 510px;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .HotelRoomsHome-Right-Content-Body-Card-ul {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .HotelRoomsHome-Right-Content-Body-Card-li {
+        height: 100px;
+        background-color: hsl(186, 50%, 92%);
+        border-radius: 10px;
+        padding: 5px;
+        display: flex;
+        margin-bottom: 13px;
+        width: 40%;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .HotelRoomsHome-Right-Content-Body-Card-li-Div-img {
+        width: 70px;
+        height: 70px;
+        padding-right: 20px;
+        margin-left: 5px;
+    }
+    
+    .HotelRoomsHome-Right-Content-Body-Card-li-img {
+        width: 60px;
+        height: 60px;
+    }
+    
+    .HotelRoomsHome-Right-Content-Body-Card-li-Div-h1 {
+        width: 95px;
+        height: auto;
+        margin-left: 15px;
+    }
+    
+    .HotelRoomsHome-Right-Content-Body-Card-li-h1 {
+        font-size: 41px;
+        margin: 0;
+    }
+    
+    .HotelRoomsHome-Right-Content-Body-Card-li-Div {
+        width: 100%;
+        text-align: left;
+        margin-left: 15px;
+    }
+    
+    .HotelRoomsHome-Right-Content-Body-Card-li-Div-ul {
+        list-style: none;
+        display: grid;
+        padding-left: 0;
+    }
+    
+    .HotelRoomsHome-Right-Content-Body-Card-li-Div-ul-li-1 {
+        font-size: 15px;
+    }
+    
+    .HotelRoomsHome-Right-Content-Body-Card-li-Div-ul-li-2 {
+        font-size: 8px
+    }
+    
+    .HotelRoom-Right-Card-Subject-Rate {
+        width: 160px;
+        height: 40px;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-left: 25%;
+    }
+    
+    .HotelRoom-Right-Card-Subject-Rate-Div-img {
+        width: 32px;
+        height: 32px;
+    }
+    
+    .HotelRoom-Right-Card-Subject-Rate-img {
+        width: 32px;
+        height: 32px;
+    }
+    
+    .HotelRoom-Right-Card-Subject-Rate-Div-span {
+        margin-left: 10px;
+        width: 62px;
+        height: 32px;
+    }
+    
+    .HotelRoom-Right-Card-Subject-Rate-span {
+        width: 62px;
+        height: 32px;
+    }
+
+}
+
+@media (max-width: 1100px) {
+    .HotelRoomsHome {
+        margin-top: 0;
+        width: 100%;
+        height: 1770px;
+
+    }
+    
+    .HotelRoomsHome-Left {
+        width: 100%;
+        height: 870px;
+        float: left;
+    }
+    
+    .HotelRoomsHome-Left-Content {
+        width: 100%;
+        height: 840px;
+        display: block;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .HotelRoomsHome-Left-Content-Head {
+        width: 90%;
+        height: 240px;
+        margin-left: 50px;
+    }
+    
+    .HotelRoomsHome-Left-Content-Head-img {
+        width: 100%;
+        height: 240px;
+    }
+    
+    .HotelRoomsHome-Left-Content-Head-img img {
+        width: 450px;
+        height: 200px;
+        border-radius: 5px;
+        position: relative;
+        z-index: -1;
+    }
+    
+    .HotelRoomsHome-Left-Content-Head-img span {
+        position: absolute;
+        left: 36%;
+        background-color: white;
+        border-radius: 15px;
+        margin-top: 13%;
+        padding: 5px;
+        width: 5%;
+        text-align: center;
+        z-index: 2;
+    }
+    
+    .HotelRoomsHome-Left-Content-Body {
+        width: 100%;
+        height: 530px;
+    }
+
+    .HotelRoomsHome-Left-Content-Body-Card {
+        width: 100%;
+        height: 500px;
+    }
+
+    .HotelRoomsHome-Left-Content-Body-Card-ul {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .HotelRoomsHome-Left-Content-Body-Card-li {
+        height: 100px;
+        background-color: hsl(186, 50%, 92%);
+        border-radius: 10px;
+        padding: 5px;
+        display: flex;
+        margin-bottom: 13px;
+        width: 40%;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .HotelRoomsHome-Left-Content-Body-Card-li-Div-img {
+        width: 68px;
+        height: 68px;
+        padding-right: 20px;
+        margin-left: 5px;
+    }
+    
+    .HotelRoomsHome-Left-Content-Body-Card-li-img {
+        width: 58px;
+        height: 58px;
+    }
+    
+    .HotelRoomsHome-Left-Content-Body-Card-li-Div-h1 {
+        width: 95px;
+        height: auto;
+        margin-left: 15px;
+    }
+    
+    .HotelRoomsHome-Left-Content-Body-Card-li-h1 {
+        font-size: 40px;
+        margin: 0;
+    }
+    
+    .HotelRoomsHome-Left-Content-Body-Card-li-Div {
+        width: 100%;
+        text-align: left;
+        margin-left: 15px;
+    }
+    
+    .HotelRoomsHome-Left-Content-Body-Card-li-Div-ul {
+        list-style: none;
+        display: grid;
+        padding-left: 0;
+        margin-left: 15px;
+    }
+    
+    .HotelRoomsHome-Left-Content-Body-Card-li-Div-ul-li-1 {
+        font-size: 15px;
+    }
+    
+    .HotelRoomsHome-Left-Content-Body-Card-li-Div-ul-li-2 {
+        font-size: 8px;
+    }
+    
+    .HotelRoom-Left-Card-Subject-Rate {
+        width: 190px;
+        height: 35px;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-left: 25%;
+    }
+    
+    .HotelRoom-Left-Card-Subject-Rate-Div-img {
+        width: 29px;
+        height: 29px;
+    }
+    
+    .HotelRoom-Left-Card-Subject-Rate-img {
+        width: 29px;
+        height: 29px;
+    }
+    
+    .HotelRoom-Left-Card-Subject-Rate-Div-span {
+        margin-left: 10px;
+        width: 59px;
+        height: 29px;
+    }
+    
+    .HotelRoom-Left-Card-Subject-Rate-span {
+        width: 59px;
+        height: 29px;
+    }
+
+    .HotelRoomsHome-Right {
+        width: 100%;
+        height: 870px;
+        float: right;
+    }
+    
+    .HotelRoomsHome-Right-Content {
+        width: 100%;
+        height: 840px;
+        display: block;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .HotelRoomsHome-Right-Content-Head {
+        width: 90%;
+        height: 240px;
+        justify-content: center;
+        align-items: center;
+        margin-left: 50px;
+    }
+    
+    .HotelRoomsHome-Right-Content-Head-img {
+        width: 100%;
+        height: 240px;
+    }
+    
+    .HotelRoomsHome-Right-Content-Head-img img {
+        width: 450px;
+        height: 200px;
+        border-radius: 5px;
+        position: relative;
+        z-index: -1;
+    }
+    
+    .HotelRoomsHome-Right-Content-Head-img span {
+        position: absolute;
+        margin-top: 13%;
+        right: 58%;
+        background-color: white;
+        border-radius: 15px;
+        padding: 5px;
+        width: 5%;
+        text-align: center;
+        z-index: 2;
+    }
+
+    .HotelRoomsHome-Right-Content-Body {
+        width: 100%;
+        height: 530px;
+    }
+    
+    .HotelRoomsHome-Right-Content-Body-Card {
+        width: 100%;
+        height: 500px;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .HotelRoomsHome-Right-Content-Body-Card-ul {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .HotelRoomsHome-Right-Content-Body-Card-li {
+        height: 100px;
+        background-color: hsl(186, 50%, 92%);
+        border-radius: 10px;
+        padding: 5px;
+        display: flex;
+        margin-bottom: 13px;
+        width: 40%;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .HotelRoomsHome-Right-Content-Body-Card-li-Div-img {
+        width: 68px;
+        height: 68px;
+        padding-right: 20px;
+        margin-left: 5px;
+    }
+    
+    .HotelRoomsHome-Right-Content-Body-Card-li-img {
+        width: 58px;
+        height: 58px;
+    }
+    
+    .HotelRoomsHome-Right-Content-Body-Card-li-Div-h1 {
+        width: 95px;
+        height: auto;
+        margin-left: 15px;
+    }
+    
+    .HotelRoomsHome-Right-Content-Body-Card-li-h1 {
+        font-size: 40px;
+        margin: 0;
+    }
+    
+    .HotelRoomsHome-Right-Content-Body-Card-li-Div {
+        width: 100%;
+        text-align: left;
+        margin-left: 15px;
+    }
+    
+    .HotelRoomsHome-Right-Content-Body-Card-li-Div-ul {
+        list-style: none;
+        display: grid;
+        padding-left: 0;
+    }
+    
+    .HotelRoomsHome-Right-Content-Body-Card-li-Div-ul-li-1 {
+        font-size: 15px;
+    }
+    
+    .HotelRoomsHome-Right-Content-Body-Card-li-Div-ul-li-2 {
+        font-size: 8px
+    }
+    
+    .HotelRoom-Right-Card-Subject-Rate {
+        width: 190px;
+        height: 35px;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-left: 25%;
+    }
+    
+    .HotelRoom-Right-Card-Subject-Rate-Div-img {
+        width: 29px;
+        height: 29px;
+    }
+    
+    .HotelRoom-Right-Card-Subject-Rate-img {
+        width: 29px;
+        height: 29px;
+    }
+    
+    .HotelRoom-Right-Card-Subject-Rate-Div-span {
+        margin-left: 10px;
+        width: 59px;
+        height: 29px;
+    }
+    
+    .HotelRoom-Right-Card-Subject-Rate-span {
+        width: 59px;
+        height: 29px;
+    }
+
+}
+
+@media (max-width: 900px) {
+    .HotelRoomsHome {
+        margin-top: 0;
+        width: 100%;
+        height: 1770px;
+    }
+    
+    .HotelRoomsHome-Left {
+        width: 100%;
+        height: 850px;
+        float: left;
+    }
+    
+    .HotelRoomsHome-Left-Content {
+        width: 100%;
+        height: 820px;
+        display: block;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .HotelRoomsHome-Left-Content-Head {
+        width: 90%;
+        height: 220px;
+        margin-left: 50px;
+    }
+    
+    .HotelRoomsHome-Left-Content-Head-img {
+        width: 100%;
+        height: 220px;
+    }
+    
+    .HotelRoomsHome-Left-Content-Head-img img {
+        width: 450px;
+        height: 200px;
+        border-radius: 5px;
+        position: relative;
+        z-index: -1;
+    }
+    
+    .HotelRoomsHome-Left-Content-Head-img span {
+        position: absolute;
+        left: 26%;
+        background-color: white;
+        border-radius: 15px;
+        margin-top: 19%;
+        padding: 5px;
+        width: 7%;
+        text-align: center;
+        z-index: 2;
+    }
+    
+    .HotelRoomsHome-Left-Content-Body {
+        width: 100%;
+        height: 500px;
+    }
+
+    .HotelRoomsHome-Left-Content-Body-Card {
+        width: 100%;
+        height: 500px;
+    }
+
+    .HotelRoomsHome-Left-Content-Body-Card-ul {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .HotelRoomsHome-Left-Content-Body-Card-li {
+        height: 100px;
+        background-color: hsl(186, 50%, 92%);
+        border-radius: 10px;
+        padding: 5px;
+        display: flex;
+        margin-bottom: 13px;
+        width: 40%;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .HotelRoomsHome-Left-Content-Body-Card-li-Div-img {
+        width: 66px;
+        height: 66px;
+        padding-right: 20px;
+        margin-left: 5px;
+    }
+    
+    .HotelRoomsHome-Left-Content-Body-Card-li-img {
+        width: 66px;
+        height: 66px;
+    }
+    
+    .HotelRoomsHome-Left-Content-Body-Card-li-Div-h1 {
+        width: 95px;
+        height: auto;
+        margin-left: 15px;
+    }
+    
+    .HotelRoomsHome-Left-Content-Body-Card-li-h1 {
+        font-size: 38px;
+        margin: 0;
+    }
+    
+    .HotelRoomsHome-Left-Content-Body-Card-li-Div {
+        width: 100%;
+        text-align: left;
+        margin-left: 15px;
+    }
+    
+    .HotelRoomsHome-Left-Content-Body-Card-li-Div-ul {
+        list-style: none;
+        display: grid;
+        padding-left: 0;
+        margin-left: 15px;
+    }
+    
+    .HotelRoomsHome-Left-Content-Body-Card-li-Div-ul-li-1 {
+        font-size: 15px;
+    }
+    
+    .HotelRoomsHome-Left-Content-Body-Card-li-Div-ul-li-2 {
+        font-size: 8px;
+    }
+    
+    .HotelRoom-Left-Card-Subject-Rate {
+        width: 180px;
+        height: 40px;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-left: 25%;
+    }
+    
+    .HotelRoom-Left-Card-Subject-Rate-Div-img {
+        width: 27px;
+        height: 27px;
+    }
+    
+    .HotelRoom-Left-Card-Subject-Rate-img {
+        width: 27px;
+        height: 27px;
+    }
+    
+    .HotelRoom-Left-Card-Subject-Rate-Div-span {
+        margin-left: 10px;
+        width: 57px;
+        height: 27px;
+    }
+    
+    .HotelRoom-Left-Card-Subject-Rate-span {
+        width: 57px;
+        height: 27px;
+    }
+
+    .HotelRoomsHome-Right {
+        width: 100%;
+        height: 950px;
+        float: right;
+    }
+    
+    .HotelRoomsHome-Right-Content {
+        width: 100%;
+        height: 850px;
+        display: block;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .HotelRoomsHome-Right-Content-Head {
+        width: 90%;
+        height: 220px;
+        justify-content: center;
+        align-items: center;
+        margin-left: 50px;
+    }
+    
+    .HotelRoomsHome-Right-Content-Head-img {
+        width: 100%;
+        height: 200px;
+    
+    }
+    
+    .HotelRoomsHome-Right-Content-Head-img img {
+        width: 450px;
+        height: 200px;
+        border-radius: 5px;
+        position: relative;
+        z-index: -1;
+    }
+    
+    .HotelRoomsHome-Right-Content-Head-img span {
+        position: absolute;
+        margin-top: 19%;
+        right: 66%;
+        background-color: white;
+        border-radius: 15px;
+        padding: 5px;
+        width: 7%;
+        text-align: center;
+        z-index: 2;
+    }
+
+    .HotelRoomsHome-Right-Content-Body {
+        width: 100%;
+        height: 500px;
+    }
+    
+    .HotelRoomsHome-Right-Content-Body-Card {
+        width: 100%;
+        height: 550px;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .HotelRoomsHome-Right-Content-Body-Card-ul {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .HotelRoomsHome-Right-Content-Body-Card-li {
+        height: 100px;
+        background-color: hsl(186, 50%, 92%);
+        border-radius: 10px;
+        padding: 5px;
+        display: flex;
+        margin-bottom: 13px;
+        width: 40%;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .HotelRoomsHome-Right-Content-Body-Card-li-Div-img {
+        width: 66px;
+        height: 66px;
+        padding-right: 20px;
+        margin-left: 5px;
+    }
+    
+    .HotelRoomsHome-Right-Content-Body-Card-li-img {
+        width: 66px;
+        height: 66px;
+    }
+    
+    .HotelRoomsHome-Right-Content-Body-Card-li-Div-h1 {
+        width: 95px;
+        height: auto;
+        margin-left: 15px;
+    }
+    
+    .HotelRoomsHome-Right-Content-Body-Card-li-h1 {
+        font-size: 38px;
+        margin: 0;
+    }
+    
+    .HotelRoomsHome-Right-Content-Body-Card-li-Div {
+        width: 100%;
+        text-align: left;
+        margin-left: 15px;
+    }
+    
+    .HotelRoomsHome-Right-Content-Body-Card-li-Div-ul {
+        list-style: none;
+        display: grid;
+        padding-left: 0;
+    }
+    
+    .HotelRoomsHome-Right-Content-Body-Card-li-Div-ul-li-1 {
+        font-size: 15px;
+    }
+    
+    .HotelRoomsHome-Right-Content-Body-Card-li-Div-ul-li-2 {
+        font-size: 8px
+    }
+    
+    .HotelRoom-Right-Card-Subject-Rate {
+        width: 180px;
+        height: 40px;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-left: 25%;
+    }
+    
+    .HotelRoom-Right-Card-Subject-Rate-Div-img {
+        width: 27px;
+        height: 27px;
+    }
+    
+    .HotelRoom-Right-Card-Subject-Rate-img {
+        width: 27px;
+        height: 27px;
+    }
+    
+    .HotelRoom-Right-Card-Subject-Rate-Div-span {
+        margin-left: 10px;
+        width: 57px;
+        height: 27px;
+    }
+    
+    .HotelRoom-Right-Card-Subject-Rate-span {
+        width: 57px;
+        height: 27px;
+    }
+
+}
+
+@media (max-width: 600px){
+    .HotelRoomsHome {
+        margin-top: 0;
+        width: 100%;
+        height: 1770px;
+    }
+    
+    .HotelRoomsHome-Left {
+        width: 100%;
+        height: 830px;
+        float: left;
+    }
+    
+    .HotelRoomsHome-Left-Content {
+        width: 100%;
+        height: 800px;
+        display: block;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .HotelRoomsHome-Left-Content-Head {
+        width: 90%;
+        height: 210px;
+        margin-left: 50px;
+    }
+    
+    .HotelRoomsHome-Left-Content-Head-img {
+        width: 100%;
+        height: 210px;
+    }
+    
+    .HotelRoomsHome-Left-Content-Head-img img {
+        width: 450px;
+        height: 190px;
+        border-radius: 5px;
+        position: relative;
+        z-index: -1;
+    }
+    
+    .HotelRoomsHome-Left-Content-Head-img span {
+        position: absolute;
+        left: 16%;
+        background-color: white;
+        border-radius: 15px;
+        margin-top: 26%;
+        padding: 5px;
+        width: 9%;
+        text-align: center;
+        z-index: 2;
+    }
+    
+    .HotelRoomsHome-Left-Content-Body {
+        width: 100%;
+        height: 480px;
+    }
+
+    .HotelRoomsHome-Left-Content-Body-Card {
+        width: 100%;
+        height: 470px;
+    }
+
+    .HotelRoomsHome-Left-Content-Body-Card-ul {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .HotelRoomsHome-Left-Content-Body-Card-li {
+        height: 100px;
+        background-color: hsl(186, 50%, 92%);
+        border-radius: 10px;
+        padding: 5px;
+        display: flex;
+        margin-bottom: 12px;
+        width: 50%;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .HotelRoomsHome-Left-Content-Body-Card-li-Div-img {
+        width: 64px;
+        height: 64px;
+        padding-right: 20px;
+        margin-left: 5px;
+    }
+    
+    .HotelRoomsHome-Left-Content-Body-Card-li-img {
+        width: 64px;
+        height: 64px;
+    }
+    
+    .HotelRoomsHome-Left-Content-Body-Card-li-Div-h1 {
+        width: 90px;
+        height: auto;
+        margin-left: 15px;
+    }
+    
+    .HotelRoomsHome-Left-Content-Body-Card-li-h1 {
+        font-size: 35px;
+        margin: 0;
+    }
+    
+    .HotelRoomsHome-Left-Content-Body-Card-li-Div {
+        width: 100%;
+        text-align: left;
+        margin-left: 15px;
+    }
+    
+    .HotelRoomsHome-Left-Content-Body-Card-li-Div-ul {
+        list-style: none;
+        display: grid;
+        padding-left: 0;
+        margin-left: 15px;
+    }
+    
+    .HotelRoomsHome-Left-Content-Body-Card-li-Div-ul-li-1 {
+        font-size: 14px;
+    }
+    
+    .HotelRoomsHome-Left-Content-Body-Card-li-Div-ul-li-2 {
+        font-size: 8px;
+    }
+    
+    .HotelRoom-Left-Card-Subject-Rate {
+        width: 170px;
+        height: 35px;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-left: 25%;
+    }
+    
+    .HotelRoom-Left-Card-Subject-Rate-Div-img {
+        width: 25px;
+        height: 25px;
+    }
+    
+    .HotelRoom-Left-Card-Subject-Rate-img {
+        width: 25px;
+        height: 25px;
+    }
+    
+    .HotelRoom-Left-Card-Subject-Rate-Div-span {
+        margin-left: 10px;
+        width: 55px;
+        height: 25px;
+    }
+    
+    .HotelRoom-Left-Card-Subject-Rate-span {
+        width: 55px;
+        height: 25px;
+    }
+
+    .HotelRoomsHome-Right {
+        width: 100%;
+        height: 830px;
+        float: right;
+        margin-top: 25px;
+    }
+    
+    .HotelRoomsHome-Right-Content {
+        width: 100%;
+        height: 800px;
+        display: block;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .HotelRoomsHome-Right-Content-Head {
+        width: 90%;
+        height: 210px;
+        justify-content: center;
+        align-items: center;
+        margin-left: 50px;
+    }
+    
+    .HotelRoomsHome-Right-Content-Head-img {
+        width: 100%;
+        height: 210px;
+    
+    }
+    
+    .HotelRoomsHome-Right-Content-Head-img img {
+        width: 450px;
+        height: 190px;
+        border-radius: 5px;
+        position: relative;
+        z-index: -1;
+    }
+    
+    .HotelRoomsHome-Right-Content-Head-img span {
+        position: absolute;
+        margin-top: 27%;
+        right: 73%;
+        background-color: white;
+        border-radius: 15px;
+        padding: 5px;
+        width: 9%;
+        text-align: center;
+        z-index: 2;
+    }
+
+    .HotelRoomsHome-Right-Content-Body {
+        width: 100%;
+        height: 480px;
+    }
+    
+    .HotelRoomsHome-Right-Content-Body-Card {
+        width: 100%;
+        height: 470px;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .HotelRoomsHome-Right-Content-Body-Card-ul {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .HotelRoomsHome-Right-Content-Body-Card-li {
+        height: 100px;
+        background-color: hsl(186, 50%, 92%);
+        border-radius: 10px;
+        padding: 5px;
+        display: flex;
+        margin-bottom: 12px;
+        width: 50%;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .HotelRoomsHome-Right-Content-Body-Card-li-Div-img {
+        width: 64px;
+        height: 64px;
+        padding-right: 20px;
+        margin-left: 5px;
+    }
+    
+    .HotelRoomsHome-Right-Content-Body-Card-li-img {
+        width: 64px;
+        height: 64px;
+    }
+    
+    .HotelRoomsHome-Right-Content-Body-Card-li-Div-h1 {
+        width: 90px;
+        height: auto;
+        margin-left: 15px;
+    }
+    
+    .HotelRoomsHome-Right-Content-Body-Card-li-h1 {
+        font-size: 35px;
+        margin: 0;
+    }
+    
+    .HotelRoomsHome-Right-Content-Body-Card-li-Div {
+        width: 100%;
+        text-align: left;
+        margin-left: 15px;
+    }
+    
+    .HotelRoomsHome-Right-Content-Body-Card-li-Div-ul {
+        list-style: none;
+        display: grid;
+        padding-left: 0;
+    }
+    
+    .HotelRoomsHome-Right-Content-Body-Card-li-Div-ul-li-1 {
+        font-size: 14px;
+    }
+    
+    .HotelRoomsHome-Right-Content-Body-Card-li-Div-ul-li-2 {
+        font-size: 8px
+    }
+    
+    .HotelRoom-Right-Card-Subject-Rate {
+        width: 170px;
+        height: 35px;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-left: 25%;
+    }
+    
+    .HotelRoom-Right-Card-Subject-Rate-Div-img {
+        width: 25px;
+        height: 25px;
+    }
+    
+    .HotelRoom-Right-Card-Subject-Rate-img {
+        width: 25px;
+        height: 25px;
+    }
+    
+    .HotelRoom-Right-Card-Subject-Rate-Div-span {
+        margin-left: 10px;
+        width: 55px;
+        height: 25px;
+    }
+    
+    .HotelRoom-Right-Card-Subject-Rate-span {
+        width: 55px;
+        height: 25px;
+    }
+
+}
+
+@media (max-width: 500px){
+    .HotelRoomsHome {
+        margin-top: 0;
+        width: 100%;
+        height: 1770px;
+    }
+    
+    .HotelRoomsHome-Left {
+        width: 100%;
+        height: 830px;
+        float: left;
+    }
+    
+    .HotelRoomsHome-Left-Content {
+        width: 100%;
+        height: 800px;
+        display: block;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .HotelRoomsHome-Left-Content-Head {
+        width: 90%;
+        height: 210px;
+        margin-left: 50px;
+    }
+    
+    .HotelRoomsHome-Left-Content-Head-img {
+        width: 100%;
+        height: 210px;
+    }
+    
+    .HotelRoomsHome-Left-Content-Head-img img {
+        width: 450px;
+        height: 190px;
+        border-radius: 5px;
+        position: relative;
+        z-index: -1;
+    }
+    
+    .HotelRoomsHome-Left-Content-Head-img span {
+        position: absolute;
+        left: 13%;
+        background-color: white;
+        border-radius: 15px;
+        top: 500px;
+        padding: 5px;
+        width: 10%;
+        text-align: center;
+        z-index: 2;
+    }
+    
+    .HotelRoomsHome-Left-Content-Body {
+        width: 100%;
+        height: 480px;
+    }
+
+    .HotelRoomsHome-Left-Content-Body-Card {
+        width: 100%;
+        height: 470px;
+    }
+
+    .HotelRoomsHome-Left-Content-Body-Card-ul {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .HotelRoomsHome-Left-Content-Body-Card-li {
+        height: 100px;
+        background-color: hsl(186, 50%, 92%);
+        border-radius: 10px;
+        padding: 5px;
+        display: flex;
+        margin-bottom: 12px;
+        width: 50%;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .HotelRoomsHome-Left-Content-Body-Card-li-Div-img {
+        width: 64px;
+        height: 64px;
+        padding-right: 20px;
+        margin-left: 5px;
+    }
+    
+    .HotelRoomsHome-Left-Content-Body-Card-li-img {
+        width: 64px;
+        height: 64px;
+    }
+    
+    .HotelRoomsHome-Left-Content-Body-Card-li-Div-h1 {
+        width: 90px;
+        height: auto;
+        margin-left: 15px;
+    }
+    
+    .HotelRoomsHome-Left-Content-Body-Card-li-h1 {
+        font-size: 35px;
+        margin: 0;
+    }
+    
+    .HotelRoomsHome-Left-Content-Body-Card-li-Div {
+        width: 100%;
+        text-align: left;
+        margin-left: 15px;
+    }
+    
+    .HotelRoomsHome-Left-Content-Body-Card-li-Div-ul {
+        list-style: none;
+        display: grid;
+        padding-left: 0;
+        margin-left: 15px;
+    }
+    
+    .HotelRoomsHome-Left-Content-Body-Card-li-Div-ul-li-1 {
+        font-size: 14px;
+    }
+    
+    .HotelRoomsHome-Left-Content-Body-Card-li-Div-ul-li-2 {
+        font-size: 8px;
+    }
+    
+    .HotelRoom-Left-Card-Subject-Rate {
+        width: 170px;
+        height: 40px;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-left: 25%;
+    }
+    
+    .HotelRoom-Left-Card-Subject-Rate-Div-img {
+        width: 25px;
+        height: 25px;
+    }
+    
+    .HotelRoom-Left-Card-Subject-Rate-img {
+        width: 25px;
+        height: 25px;
+    }
+    
+    .HotelRoom-Left-Card-Subject-Rate-Div-span {
+        margin-left: 10px;
+        width: 55px;
+        height: 25px;
+    }
+    
+    .HotelRoom-Left-Card-Subject-Rate-span {
+        width: 55px;
+        height: 25px;
+    }
+
+    .HotelRoomsHome-Right {
+        width: 100%;
+        height: 830px;
+        float: right;
+        margin-top: 25px;
+    }
+    
+    .HotelRoomsHome-Right-Content {
+        width: 100%;
+        height: 800px;
+        display: block;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .HotelRoomsHome-Right-Content-Head {
+        width: 90%;
+        height: 210px;
+        justify-content: center;
+        align-items: center;
+        margin-left: 50px;
+    }
+    
+    .HotelRoomsHome-Right-Content-Head-img {
+        width: 100%;
+        height: 210px;
+    
+    }
+    
+    .HotelRoomsHome-Right-Content-Head-img img {
+        width: 450px;
+        height: 190px;
+        border-radius: 5px;
+        position: relative;
+        z-index: -1;
+    }
+    
+    .HotelRoomsHome-Right-Content-Head-img span {
+        position: absolute;
+        top: 1350px;
+        right: 75%;
+        background-color: white;
+        border-radius: 15px;
+        padding: 5px;
+        width: 10%;
+        text-align: center;
+        z-index: 2;
+    }
+
+    .HotelRoomsHome-Right-Content-Body {
+        width: 100%;
+        height: 480px;
+    }
+    
+    .HotelRoomsHome-Right-Content-Body-Card {
+        width: 100%;
+        height: 470px;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .HotelRoomsHome-Right-Content-Body-Card-ul {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .HotelRoomsHome-Right-Content-Body-Card-li {
+        height: 100px;
+        background-color: hsl(186, 50%, 92%);
+        border-radius: 10px;
+        padding: 5px;
+        display: flex;
+        margin-bottom: 12px;
+        width: 50%;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .HotelRoomsHome-Right-Content-Body-Card-li-Div-img {
+        width: 64px;
+        height: 64px;
+        padding-right: 20px;
+        margin-left: 5px;
+    }
+    
+    .HotelRoomsHome-Right-Content-Body-Card-li-img {
+        width: 64px;
+        height: 64px;
+    }
+    
+    .HotelRoomsHome-Right-Content-Body-Card-li-Div-h1 {
+        width: 100px;
+        height: auto;
+        margin-left: 15px;
+    }
+    
+    .HotelRoomsHome-Right-Content-Body-Card-li-h1 {
+        font-size: 35px;
+        margin: 0;
+    }
+    
+    .HotelRoomsHome-Right-Content-Body-Card-li-Div {
+        width: 100%;
+        text-align: left;
+        margin-left: 15px;
+    }
+    
+    .HotelRoomsHome-Right-Content-Body-Card-li-Div-ul {
+        list-style: none;
+        display: grid;
+        padding-left: 0;
+    }
+    
+    .HotelRoomsHome-Right-Content-Body-Card-li-Div-ul-li-1 {
+        font-size: 14px;
+    }
+    
+    .HotelRoomsHome-Right-Content-Body-Card-li-Div-ul-li-2 {
+        font-size: 8px
+    }
+    
+    .HotelRoom-Right-Card-Subject-Rate {
+        width: 170px;
+        height: 40px;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-left: 25%;
+    }
+    
+    .HotelRoom-Right-Card-Subject-Rate-Div-img {
+        width: 25px;
+        height: 25px;
+    }
+    
+    .HotelRoom-Right-Card-Subject-Rate-img {
+        width: 25px;
+        height: 25px;
+    }
+    
+    .HotelRoom-Right-Card-Subject-Rate-Div-span {
+        margin-left: 10px;
+        width: 55px;
+        height: 25px;
+    }
+    
+    .HotelRoom-Right-Card-Subject-Rate-span {
+        width: 55px;
+        height: 25px;
+    }
+
+}
+
+@media (max-width: 400px){
+    .HotelRoomsHome {
+        margin-top: 0;
+        width: 100%;
+        height: 1770px;
+    }
+    
+    .HotelRoomsHome-Left {
+        width: 100%;
+        height: 800px;
+        float: left;
+    }
+    
+    .HotelRoomsHome-Left-Content {
+        width: 100%;
+        height: 790px;
+        display: block;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .HotelRoomsHome-Left-Content-Head {
+        width: 90%;
+        height: 200px;
+        margin-left: 50px;
+    }
+    
+    .HotelRoomsHome-Left-Content-Head-img {
+        width: 100%;
+        height: 200px;
+    }
+    
+    .HotelRoomsHome-Left-Content-Head-img img {
+        width: 450px;
+        height: 190px;
+        border-radius: 5px;
+        position: relative;
+        z-index: -1;
+    }
+    
+    .HotelRoomsHome-Left-Content-Head-img span {
+        position: absolute;
+        left: 16%;
+        background-color: white;
+        border-radius: 15px;
+        margin-top: 6%;
+        padding: 5px;
+        width: 13%;
+        text-align: center;
+        z-index: 2;
+    }
+    
+    .HotelRoomsHome-Left-Content-Body {
+        width: 100%;
+        height: 450px;
+    }
+
+    .HotelRoomsHome-Left-Content-Body-Card {
+        width: 100%;
+        height: 450px;
+    }
+
+    .HotelRoomsHome-Left-Content-Body-Card-ul {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .HotelRoomsHome-Left-Content-Body-Card-li {
+        height: 100px;
+        background-color: hsl(186, 50%, 92%);
+        border-radius: 10px;
+        padding: 5px;
+        display: flex;
+        margin-bottom: 11px;
+        width: 60%;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .HotelRoomsHome-Left-Content-Body-Card-li-Div-img {
+        width: 62px;
+        height: 62px;
+        padding-right: 20px;
+        margin-left: 5px;
+    }
+    
+    .HotelRoomsHome-Left-Content-Body-Card-li-img {
+        width: 62px;
+        height: 62px;
+    }
+    
+    .HotelRoomsHome-Left-Content-Body-Card-li-Div-h1 {
+        width: 90px;
+        height: auto;
+        margin-left: 15px;
+    }
+    
+    .HotelRoomsHome-Left-Content-Body-Card-li-h1 {
+        font-size: 32px;
+        margin: 0;
+    }
+    
+    .HotelRoomsHome-Left-Content-Body-Card-li-Div {
+        width: 100%;
+        text-align: left;
+        margin-left: 15px;
+    }
+    
+    .HotelRoomsHome-Left-Content-Body-Card-li-Div-ul {
+        list-style: none;
+        display: grid;
+        padding-left: 0;
+        margin-left: 15px;
+    }
+    
+    .HotelRoomsHome-Left-Content-Body-Card-li-Div-ul-li-1 {
+        font-size: 14px;
+    }
+    
+    .HotelRoomsHome-Left-Content-Body-Card-li-Div-ul-li-2 {
+        font-size: 8px;
+    }
+    
+    .HotelRoom-Left-Card-Subject-Rate {
+        width: 170px;
+        height: 40px;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-left: 25%;
+    }
+    
+    .HotelRoom-Left-Card-Subject-Rate-Div-img {
+        width: 23px;
+        height: 23px;
+    }
+    
+    .HotelRoom-Left-Card-Subject-Rate-img {
+        width: 23px;
+        height: 23px;
+    }
+    
+    .HotelRoom-Left-Card-Subject-Rate-Div-span {
+        margin-left: 10px;
+        width: 53px;
+        height: 23px;
+    }
+    
+    .HotelRoom-Left-Card-Subject-Rate-span {
+        width: 53px;
+        height: 23px;
+    }
+
+    .HotelRoomsHome-Right {
+        width: 100%;
+        height: 800px;
+        float: right;
+        margin-top: 55px;
+    }
+    
+    .HotelRoomsHome-Right-Content {
+        width: 100%;
+        height: 790px;
+        display: block;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .HotelRoomsHome-Right-Content-Head {
+        width: 90%;
+        height: 200px;
+        justify-content: center;
+        align-items: center;
+        margin-left: 50px;
+    }
+    
+    .HotelRoomsHome-Right-Content-Head-img {
+        width: 100%;
+        height: 200px;
+    
+    }
+    
+    .HotelRoomsHome-Right-Content-Head-img img {
+        width: 450px;
+        height: 190px;
+        border-radius: 5px;
+        position: relative;
+        z-index: -1;
+    }
+    
+    .HotelRoomsHome-Right-Content-Head-img span {
+        position: absolute;
+        margin-top: 0;
+        right: 70%;
+        background-color: white;
+        border-radius: 15px;
+        padding: 5px;
+        width: 13%;
+        text-align: center;
+        z-index: 2;
+    }
+
+    .HotelRoomsHome-Right-Content-Body {
+        width: 100%;
+        height: 450px;
+    }
+    
+    .HotelRoomsHome-Right-Content-Body-Card {
+        width: 100%;
+        height: 450px;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .HotelRoomsHome-Right-Content-Body-Card-ul {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .HotelRoomsHome-Right-Content-Body-Card-li {
+        height: 100px;
+        background-color: hsl(186, 50%, 92%);
+        border-radius: 10px;
+        padding: 5px;
+        display: flex;
+        margin-bottom: 11px;
+        width: 60%;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .HotelRoomsHome-Right-Content-Body-Card-li-Div-img {
+        width: 62px;
+        height: 62px;
+        padding-right: 20px;
+        margin-left: 5px;
+    }
+    
+    .HotelRoomsHome-Right-Content-Body-Card-li-img {
+        width: 62px;
+        height: 62px;
+    }
+    
+    .HotelRoomsHome-Right-Content-Body-Card-li-Div-h1 {
+        width: 90px;
+        height: auto;
+        margin-left: 15px;
+    }
+    
+    .HotelRoomsHome-Right-Content-Body-Card-li-h1 {
+        font-size: 32px;
+        margin: 0;
+    }
+    
+    .HotelRoomsHome-Right-Content-Body-Card-li-Div {
+        width: 100%;
+        text-align: left;
+        margin-left: 15px;
+    }
+    
+    .HotelRoomsHome-Right-Content-Body-Card-li-Div-ul {
+        list-style: none;
+        display: grid;
+        padding-left: 0;
+    }
+    
+    .HotelRoomsHome-Right-Content-Body-Card-li-Div-ul-li-1 {
+        font-size: 14px;
+    }
+    
+    .HotelRoomsHome-Right-Content-Body-Card-li-Div-ul-li-2 {
+        font-size: 8px
+    }
+    
+    .HotelRoom-Right-Card-Subject-Rate {
+        width: 170px;
+        height: 40px;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-left: 25%;
+    }
+    
+    .HotelRoom-Right-Card-Subject-Rate-Div-img {
+        width: 23px;
+        height: 23px;
+    }
+    
+    .HotelRoom-Right-Card-Subject-Rate-img {
+        width: 23px;
+        height: 23px;
+    }
+    
+    .HotelRoom-Right-Card-Subject-Rate-Div-span {
+        margin-left: 10px;
+        width: 53px;
+        height: 23px;
+    }
+    
+    .HotelRoom-Right-Card-Subject-Rate-span {
+        width: 53px;
+        height: 23px;
+    }
+
+}

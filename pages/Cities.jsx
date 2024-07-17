@@ -9,9 +9,7 @@ import Ayak from "./components/Ayak";
 export default function Cities() {
     return(
         <>
-            <Head>
-                
-            </Head>
+            <Head></Head>
             <div className="Cities-Home">
                 <Kafa />
                 <CitiesBest />

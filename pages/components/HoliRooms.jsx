@@ -136,7 +136,7 @@ export default function HoliRooms() {
                                         </div>
                                         <div className="HoliRoomsHome-Right-Content-Head">
                                             <div className="HoliRoomsHome-Right-Content-Head-img">
-                                                <Image src={`${item?.attributes?.Images}`} width={450} height={300} alt="room2"></Image>
+                                                <Image src={`${item?.attributes?.Images}`} width={450} height={300} className="RightFoto" alt="room2"></Image>
                                                 <span>Review</span>
                                             </div>
                                         </div>
