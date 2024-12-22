@@ -1,36 +1,47 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+﻿## **HotelPage** 🚀
+Bu proje en uygun Hotel fiyatlarını gösteren bir Next.js projesidir.
+## **Özellikler** ✨
 
-## Getting Started
+-   Özellik 1: Hotel verileri güncel bir şekilde gelmektedir.
+-   Özellik 2: Hızlı ve güvenli bir altyapıya sahiptir.
+-   Özellik 3: Front-End yapısı ağırlıklı bir web sitesidir.
+-   Özellik 4: Resimler doğrulanmıştır.
+-   Özellik 5: Hotel verileri, örnek amaçlı hayali verilere dayanmaktadır.
+## **Kurulum** ⚙️
 
-First, run the development server:
+Projeyi yerel makinenize kurmak için aşağıdaki adımları takip edin:
+-   **Depoyu klonlayın:**
+     `git clone https://github.com/durmaztayfun22/Hotelpage.git` 
+    
+-   **Gerekli bağımlılıkları yükleyin:**
+    `npm install` 
+    
+-   **Projenizi başlatın:**
+    `npm start`
+   ## **Kullanım** 📚
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Bu proje, kullanıcıların otel odaları hakkında bilgi alabileceği, odalarını seçebileceği ve rezervasyon yapabileceği bir otel web sitesi sunar. Front-end kısmı, kullanıcı etkileşimlerini yönetmek ve veriyi dinamik olarak sunmak için modern web teknolojileriyle tasarlanmıştır. İşte bu sürecin nasıl çalıştığına dair detaylı bir açıklama:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### **Adım 1: Projeyi Başlatın**
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Sunucuyu yerel makinenizde başlatmak için aşağıdaki komutları kullanabilirsiniz:
+-   **Depoyu klonlayın:**
+     `git https://github.com/durmaztayfun22/Hotelpage.git` 
+    
+-   **Gerekli bağımlılıkları yükleyin:**
+    `npm install` 
+    
+-   **Projenizi başlatın:**
+    `bpm start`
+  ### **Adım 2: Web Sitesini Görüntüleyin**
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Dilediğiniz Hotel rezervasyonlarında bulabilir, arayabilir ve seçebilirsiniz. Örnek bir resim:
+![Resim-1](images/readmeImage/resim-1.png)
 
-## Learn More
+![Resim-2](images/readmeImage/resim-2.png)
 
-To learn more about Next.js, take a look at the following resources:
+![Resim-3](images/readmeImage/resim-3.png)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+![Resim-4](images/readmeImage/resim-4.png)
+		
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
